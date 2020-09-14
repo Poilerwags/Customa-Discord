@@ -317,7 +317,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-265mhP
 /* New Messages Bar */, .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ /* Settings Tab Selected */, .wrapper-232cHJ /* Ping Wrapper */, .iconBadge-qZ4Ksk
 /* New Pins Badge */, .switch-3wwwcV.valueChecked-m-4IJZ /* Enabled Switch */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
-.selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .mention-1f5kbO, .mention-1f5kbO:active /* Mention Bar Guilds */, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerXbox-3G-4PF,
+.selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .item-2hkk8m,
+.unread-3zKkbm /* Unread Message Dots */, .mention-1f5kbO, .mention-1f5kbO:active /* Mention Bar Guilds */, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerXbox-3G-4PF,
 .headerSpotify-zpWxgT /* User Popout Header Streaming/Playing/Xbox/Spotify */, .wanderingCubesItem-WPXqao /* Wandering Cubes/Loading */, .topSectionXbox-3fWLjS,
 .topSectionSpotify-1lI0-P, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X /* User Modal Header Streaming/playing/Spotify/Xbox */, .datePicker--XZbmJ .calendarPicker-2yf6Ci
 .react-datepicker__day.react-datepicker__day--selected:hover, .datePicker--XZbmJ .calendarPicker-2yf6Ci .react-datepicker__day:hover /* Selected Day React Datepicker */,
@@ -385,7 +386,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .attachButtonPlay-3iJ0mf /* Additional Upload Actions Indicator */, .selectorNitroIcon-3FDeDE /* Nitro Wordmark Stream Quality Settings */, .progress-LWvunf .foreground-2EIns2
 /* Progress Bar Server Boost Foreground */, .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV /* Reaction I reacted to */, .updateIconForeground-3tnNZn /* Update Icon */,
 .searchBar-3dMhjb .searchAnswer-3Dz2-q /* Filter Searchbar Guild Search */, .statusGreen-168O6Q /* Status Text Green User Popout */, .hasMore-3e72_v
-/* Load More Messages Button */, .flowerStar-1GeTsn /* Verified Flowerstars */,
+/* Load More Messages Button */, .flowerStar-1GeTsn /* Verified Flowerstars */, .unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg /* Unread Pill Fill Color Chat Divider */,
 .wrapper-3WhCwL /* Mentions/Channel */, .circleIconButton-jET_ig /* Add Server/Discovery Buttons */, .tier-12tKuZ .tierUnlocked-25K6Kv /* Unlocked Tier Server Boost Modal */,
 .tierHeaderContent-2-YfvN .tierUnlocked-27DwHo /* Unlocked Tier Server Boost Settings */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */,
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS /* Selected Radio and Checkbox color */, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN
