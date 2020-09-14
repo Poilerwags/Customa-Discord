@@ -1,0 +1,8 @@
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+
+:root {
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 0;
+}
