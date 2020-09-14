@@ -24,7 +24,7 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
     transition: color 200ms;
 }
 
-/* Channels Hovered */ .channel-2QD9_O:hover not(.modeUnread-1zpFdA) *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v) /* Private Channel */, .containerDefault-1ZnADq:hover *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v), .wrapper-1ucjTd.modeSelected-1zApJ_:hover * /* Guild Channel */{
+/* Channels Hovered */ .channel-2QD9_O:hover *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v) /* Private Channel */, .containerDefault-1ZnADq:hover *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v), .wrapper-1ucjTd.modeSelected-1zApJ_:hover * /* Guild Channel */{
     color: var(--ColFontHovered)!important;
     transition: color 200ms;
 }
