@@ -717,19 +717,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   overflow: visible;
 }
 
-.typing-2GQL18::before {
-  content: "";
-  width: 50px;
-  display: block;
-  position: absolute;
-  left: -8px;
-  height: 28px;
-  bottom: 0;
-  background-color: var(--ColBackground1);
-  border-top-left-radius: 10px;
-  z-index: -1;
-}
-
 .autocomplete-1vrmpx {
   z-index: 100;
 }
