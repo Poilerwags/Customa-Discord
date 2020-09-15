@@ -51,9 +51,9 @@
   --text-link: var(--ColLink);
 
   --ColAccent: #429ef5; /* Color */
-  --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
+  --ColAccentAlpha: rgba(0, 0, 0, .3); /* Color with Alpha */
   --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
-  --ColBackground1: rgba(0, 0, 0, 0); /* Color */
+  --ColBackground1: rgba(0, 0, 0, 0.3); /* Color */
   --ColBackground2: rgba(0, 0, 0, 0.5); /* Color */
   --ColChannelList: rgba(0, 0, 0, 0.4); /* Color */
   --ColUserList: rgba(0, 0, 0, 0.4); /* Color */
@@ -63,7 +63,7 @@
   --ColUserModal: rgba(0, 0, 0, 0.6); /* Color */
   --ColSpoilerCovered: rgba(0, 0, 0, 0.8); /* Color */
   --ColSpoilerUncovered: transparent; /* Color */
-  --ColFont: #429ef5; /* Color */
+  --ColFont: #ffffff; /* Color */
   --ColTransparent1: rgba(0, 0, 0, 0.4); /* Transparent Color */
   --ColTransparent2: rgba(0, 0, 0, 0.2); /* Transparent Color */
   --ColLink: var(--ColAccent); /* Color */
@@ -71,7 +71,7 @@
   --DisplayButtonEmoji: flex; /* Flex or none */
   --DisplayButtonGIF: flex; /* Flex or none */
   --DisplayButtonGift: none; /* Flex or none */
-  --DisplayEmbedPill: none; /* Solid or none */
+  --DisplayEmbedPill: solid; /* Solid or none */
   --DisplayToolbar: flex; /* Flex or none */
   --DisplayEmojiQuickReaction: none; /* Flex or none */
   --DisplayBlockedMessages: none; /* Flex or none */
@@ -131,6 +131,10 @@ transition: color 200ms;
 #ff5747
 .item-PXvHYJ[style='border-color: rgb(79, 84, 92); color: rgb(79, 84, 92);'] /* Tabbar Item */, .friendsTableHeader-32yE7d, .headerCell-2jGIdL, .stickyHeader-1pqx0j /* Table Header */, .divider-3gKybi .dividerContent-2L12VI:after, .divider-3gKybi .dividerContent-2L12VI:before /* Dividers e.g. chat date */, .bodySection-jqkkIP, .sku-epQEb_ /* Game Store */, .powercord-settings-item.powercord-category .powercord-settings-item-inner /* Powercord Settings Category Side Border */{
     border-color: var(--ColFont)!important;
+}
+
+.titleBar-AC4pGV {
+    background: rgba(0,0,0,0.5) !important;
 }
 
 .itemGroup-1tL0uz /* Seperator Right Click Menu */, .container-2x5lvQ section hr, .finePrint-ULGqdp /* Fine Print Subscription */{
