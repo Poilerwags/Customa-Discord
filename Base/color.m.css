@@ -53,19 +53,19 @@
   --ColAccent: #429ef5; /* Color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
   --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
-  --ColBackground1: rgba(0, 0, 0, .2); /* Color */
-  --ColBackground2: rgba(0, 0, 0, .5); /* Color */
-  --ColChannelList: rgba(0, 0, 0, .4); /* Color */
-  --ColUserList: rgba(0, 0, 0, .3); /* Color */
-  --ColPopout: rgba(0, 0, 0, .65); /* Color */
-  --ColUserPopout: rgba(0, 0, 0, .65); /* Color */
-  --ColModal: rgba(0, 0, 0, .65); /* Color */
-  --ColUserModal: rgba(0, 0, 0, .65); /* Color */
-  --ColSpoilerCovered: rgba(0, 0, 0, .4); /* Color */
+  --ColBackground1: rgba(0, 0, 0, 0); /* Color */
+  --ColBackground2: rgba(0, 0, 0, 0.5); /* Color */
+  --ColChannelList: rgba(0, 0, 0, 0.4); /* Color */
+  --ColUserList: rgba(0, 0, 0, 0.4); /* Color */
+  --ColPopout: rgba(0, 0, 0, 0.0.6); /* Color */
+  --ColUserPopout: rgba(0, 0, 0, 0.6); /* Color */
+  --ColModal: rgba(0, 0, 0, 0.6); /* Color */
+  --ColUserModal: rgba(0, 0, 0, 0.6); /* Color */
+  --ColSpoilerCovered: rgba(0, 0, 0, 0.8); /* Color */
   --ColSpoilerUncovered: transparent; /* Color */
   --ColFont: #429ef5; /* Color */
-  --ColTransparent1: rgba(0, 0, 0, .4); /* Transparent Color */
-  --ColTransparent2: rgba(0, 0, 0, .2); /* Transparent Color */
+  --ColTransparent1: rgba(0, 0, 0, 0.4); /* Transparent Color */
+  --ColTransparent2: rgba(0, 0, 0, 0.2); /* Transparent Color */
   --ColLink: var(--ColAccent); /* Color */
   --ColWindowBar: #2fff00; /* Color */
   --DisplayButtonEmoji: flex; /* Flex or none */

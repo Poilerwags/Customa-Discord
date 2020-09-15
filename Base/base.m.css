@@ -41,6 +41,7 @@
   --ColAccent: #429ef5; /* Color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
   --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
+  --ColHomeBG: url('https://imgur.com/6PkGYYE.png');
   --ColBackground1: rgba(0, 0, 0, .2); /* Color */
   --ColBackground2: rgba(0, 0, 0, .5); /* Color */
   --ColChannelList: rgba(0, 0, 0, .4); /* Color */
@@ -333,7 +334,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Accent Background */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-265mhP
+.newMessagesBar-265mhP
 /* New Messages Bar */, .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ /* Settings Tab Selected */, .wrapper-232cHJ /* Ping Wrapper */, .iconBadge-qZ4Ksk
 /* New Pins Badge */, .switch-3wwwcV.valueChecked-m-4IJZ /* Enabled Switch */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
 .selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .item-2hkk8m,
@@ -358,6 +359,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt:before,
 .replying-1x3H0T:before  /* Local Bot message and replying Side block */ {
   background-color: var(--ColAccent);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */{
+  background-color: var(--ColHomeBG);
 }
 
 .item-26Dhrx[style*="rgb(114, 137, 218)"] /* Overwrite Default Item Color */, .selectableItem-1MP3MQ.selected-31soGA /* Selectable Item Selected (e.g. Audit Log Popout) */,
@@ -687,17 +692,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .panels-j1Uci_ {
   border-top-right-radius: 10px;
   position: relative;
-}
-
-.panels-j1Uci_::after {
-  display: block;
-  content: "";
-  position: absolute;
-  bottom: 43px;
-  height: 10px;
-  width: 10px;
-  background-color: var(--ColBackground1);
-  right: 0;
 }
 
 .typing-2GQL18 {
