@@ -1,3 +1,6 @@
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+
 :root {
   /* Do not change anything here unless you know what you are doing */
   --INTModBase: "    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A"!important;
@@ -63,6 +66,22 @@
   --DisplayNitroMenu: none; /* Block or none */
   --DisplayLibraryMenu: none; /* Block or none */
   --FilterAccountSecurity: blur(4px); /* Filter */
+
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 15%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 0;
 }
 
 @font-face {
@@ -819,15 +838,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .selectClosed-2un0PJ .paymentSourceLabel-1lo4Ca:hover,
 .paymentSourceRow-3FbcL_ .descriptionWrapper-1YBY_J:hover {
   filter: none;
-}
-
-/* Scrollbars */
-/* stylelint-disable */
-::-webkit-scrollbar {
-  /* stylelint-enable */
-  width: 5px!important;
-  height: 3px!important;
-  display: block;
 }
 
 /* stylelint-disable */
