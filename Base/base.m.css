@@ -42,7 +42,7 @@
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
   --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
   --ColHomeBG: url('https://imgur.com/6PkGYYE.png');
-  --ColBackground1: rgba(0, 0, 0, .2); /* Color */
+  --ColBackground1: rgba(0, 0, 0, .3); /* Color */
   --ColBackground2: rgba(0, 0, 0, .5); /* Color */
   --ColChannelList: rgba(0, 0, 0, .4); /* Color */
   --ColUserList: rgba(0, 0, 0, .3); /* Color */
@@ -166,7 +166,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Dark Background */
-.wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
+.searchBar-6Kv8R2 /* Search Bar Box DMs */,
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2o-2hj, .hasBanner-14PPlG .header-2o-2hj,
 .clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */, .form-2fGMdU /* Main Textarea */,
 .typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj
@@ -194,6 +194,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Store why you might like it */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emote Picker */ {
   background-color: var(--ColBackground1);
+}
+
+.panels-j1Uci_ /* Panels User Menu */, .wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */{
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .regionSelectModal-12e-57 /* Region Selector Color Override - Imagine having the decision between dark and light theme amirite */, .container-2VW0UT /* Settings Save */ {
