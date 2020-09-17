@@ -1,16 +1,3 @@
-@import url('https://poilerwags.github.io/Customa-Discord/Base/base.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Base/selection.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Base/tooltip.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Base/variables.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Base/modules.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Chat/customEditIcon.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/ServerColumns.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/wrapperMember.m.css');
-@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/coloredChannelIcons.m.css');
-@import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
-@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
-@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
-
 :root{
   --INTModColor: '    \2022  Color ~ Customa Devs (Base \2192  color.m.css)\A'!important;
   --INTVarColor: '\A\A Color - Module \A \2022  --ColChat \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFont \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFontBright \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFontPlaceholder \2192  Allowed Values: Allowed Values: Color'!important;
