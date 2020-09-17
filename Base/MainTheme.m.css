@@ -5,11 +5,11 @@
 @import url('https://poilerwags.github.io/Customa-Discord/Base/variables.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Base/modules.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Chat/customEditIcon.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/ServerColumns.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Sidebar/wrapperMember.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Sidebar/coloredChannelIcons.m.css');
 @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
 
 :root{
