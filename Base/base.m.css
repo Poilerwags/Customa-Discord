@@ -54,13 +54,13 @@
   --ColSpoilerUncovered: transparent; /* Color */
   --ColFont: #429ef5; /* Color */
   --ColTransparent1: rgba(0, 0, 0, .4); /* Transparent Color */
-  --ColTransparent2: rgba(0, 0, 0, .2); /* Transparent Color */
+  --ColTransparent2: rgba(252, 252, 252, .2); /* Transparent Color */
   --ColLink: var(--ColAccent); /* Color */
   --ColWindowBar: #2fff00; /* Color */
   --DisplayButtonEmoji: flex; /* Flex or none */
   --DisplayButtonGIF: flex; /* Flex or none */
   --DisplayButtonGift: none; /* Flex or none */
-  --DisplayEmbedPill: none; /* Solid or none */
+  --DisplayEmbedPill: solid; /* Solid or none */
   --DisplayToolbar: flex; /* Flex or none */
   --DisplayEmojiQuickReaction: none; /* Flex or none */
   --DisplayBlockedMessages: none; /* Flex or none */
@@ -253,8 +253,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Button Chat Actions Hover Effect */, .item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode
 .message-2qnXI6.localBot-GrCgVt:hover /* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */,
 .rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */,
-.message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L
-/* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
+.mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
 /* Has More Button Recent Mentions */, .button-F9qN4n /* Emoji Reaction */, .header-1RC2Wb, .body-SKIE6r /* Gift Inventory */,
 .header-2-Imhb.header-ykumBX .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* Mentions Popup Mentions Tag */, .secondary-dIudih /* Filter Button Mentions Popup */,
 .messageContainer-gbhlwo /* Message Container Recent Mentions */, .tertiary-aMXF0g /* Tertiary Color - used in Jump Button Recent Mentions */,
@@ -273,6 +272,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Info Box Server Insights */, .card-3_CqkU.splashLoaded-2qGdo9 /* Server Cards Discovery Settings */, .container-2w0lh0, .header-2Y0-A- /* Discovery Checklist */,
 .card-3RzMcx /* Empty Channel Hints */, .content-3YMskv .inviteRow-2L02ae:hover /* Invite Friends Row */ {
   background-color: var(--ColTransparent2);
+}
+
+.message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
+  background-color: rgba(0, 0, 0, 0.6)
 }
 
 /* Dark Transparency Effect */
