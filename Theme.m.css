@@ -107,7 +107,7 @@
 
   --INTModCustomEditIcon: "    \2022  Custom Edit Icon ~ Customa Devs (Chat \2192  customEditIcon.m.css)\A"!important;
   --INTVarCustomEditIcon: "\A\A Custom Edit Icon - Module \A \2022  --ContentEditIcon \2192  Allowed Values: url(TO_ICON)"!important;
-  --ContentEditIcon: url("https://imgur.com/6PkGYYE.png");
+  --ContentEditIcon: url("https://pbs.twimg.com/media/EYX1joIU4AAz3oX.jpg");
 
   --hover-animation-speed: 0.35s;
   --seperator-color: var(--background-accent);
@@ -118,6 +118,11 @@
   --selected-bg: rgba(112, 135, 215, 0.1) !important;
   --hovered-bg: rgba(79,84,92,0.25) !important;
   --bg-rounding: 0px 10px 10px 0px !important;
+}
+
+/*M Makes Bot Tag Round*/
+.botTag-2WPJ74 {
+    border-radius: 20px !important;
 }
 
 /*Gets rid of Nitro buttons*/
