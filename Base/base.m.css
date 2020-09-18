@@ -38,7 +38,6 @@
   --ColAccent: #429ef5; /* Color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
   --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
-  --ColHomeBG: url('https://imgur.com/6PkGYYE.png');
   --ColBackground1: rgba(0, 0, 0, .3); /* Color */
   --ColBackground2: rgba(0, 0, 0, .5); /* Color */
   --ColChannelList: rgba(0, 0, 0, .4); /* Color */
@@ -74,7 +73,7 @@
 /* App Background */
 body /* Discord Application Body */ {
   background: var(--ColAppBG);
-  background-position: center;  
+  background-position: center;
 }
 
 /* Background Transparent */
