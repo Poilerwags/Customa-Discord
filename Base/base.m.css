@@ -74,6 +74,7 @@
 /* App Background */
 body /* Discord Application Body */ {
   background: var(--ColAppBG);
+  background-position: center;  
 }
 
 /* Background Transparent */
