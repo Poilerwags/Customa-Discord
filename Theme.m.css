@@ -104,13 +104,7 @@
   --guildgap: 2;
   --aligndms: 0;
 
-<<<<<<< HEAD
   --HomeIconImg: url("https://i.imgur.com/6PkGYYE.png");
-=======
-  --INTModCustomEditIcon: "    \2022  Custom Edit Icon ~ Customa Devs (Chat \2192  customEditIcon.m.css)\A"!important;
-  --INTVarCustomEditIcon: "\A\A Custom Edit Icon - Module \A \2022  --ContentEditIcon \2192  Allowed Values: url(TO_ICON)"!important;
-  --ContentEditIcon: url("https://pbs.twimg.com/media/EYX1joIU4AAz3oX.jpg");
->>>>>>> c4f7d85a8376ba88eb4d51f29c0bd08f531855c1
 
   --hover-animation-speed: 0.35s;
   --seperator-color: var(--background-accent);
