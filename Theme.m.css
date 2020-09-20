@@ -423,3 +423,34 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
+/* Hide Textbox when you don't have permission */
+.channelTextAreaDisabled-8rmlrp>div {
+    display: none;
+}
+
+/* Add Status Text in DMs */
+[aria-label="Online"]::after {
+   content: 'ONLINE';
+   font-weight: bold;
+   padding-left: 5px;
+   color: #43B581
+}
+[aria-label="Do Not Disturb"]::after {
+   content: 'DO NOT DISTURB';
+   font-weight: bold;
+   padding-left: 5px;
+   color: #F04747
+}
+[aria-label="Idle"]::after {
+   content: 'IDLE';
+   font-weight: bold;
+   padding-left: 5px;
+   color: #FFB740
+}
+[aria-label="Offline"]::after {
+   content: 'OFFLINE/INVISIBLE';
+   font-weight: bold;
+   padding-left: 5px;
+   color: #747F8D
+}
