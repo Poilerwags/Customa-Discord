@@ -831,7 +831,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 #app-mount .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv > .scrollerStore-390omS::-webkit-scrollbar-track,
 #app-mount .scrollerThemed-2oenus.scrollerTrack-1ZIpsv > .scroller-2FKFPG::-webkit-scrollbar-track,
 #app-mount .scrollerThemed-2oenus.scrollerTrack-1ZIpsv > .scrollerStore-390omS::-webkit-scrollbar-track /* Several themed scrollbars */ {
-  background-color: rgba(0, 0, 0, .6)!important;
+  background-color: rgba(255, 255, 255, .25)!important;
 }
 
 .guilds-1SWlCJ > .scroller-2TZvBN::-webkit-scrollbar {
