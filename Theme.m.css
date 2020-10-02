@@ -5,12 +5,12 @@
 @import url('https://poilerwags.github.io/Customa-Discord/Base/tooltip.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Base/variables.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Base/modules.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css');
 /*@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/serverColumns.m.css');*/
 @import url('https://poilerwags.github.io/Customa-Discord/Sidebar/wrapperMember.m.css');
 @import url('https://poilerwags.github.io/Customa-Discord/Sidebar/coloredChannelIcons.m.css');
 @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
-@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
 
 :root{
   --INTModColor: '    \2022  Color ~ Customa Devs (Base \2192  color.m.css)\A'!important;
