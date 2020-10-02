@@ -450,6 +450,7 @@ div[id="message-actions"]:hover {
 .container-PNkimc .header-2o-2hj .name-3YKhmS {
     transform: translateX(-10px);
     font-size: 11px;
+    text-align: center;
 }
 .container-PNkimc .header-2o-2hj:hover {
     height: 48px;
