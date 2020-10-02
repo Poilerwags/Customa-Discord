@@ -349,8 +349,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* Hover and Selected Home Button */, .newMessagesBar-265mhP
 /* New Messages Bar */, .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ /* Settings Tab Selected */, .wrapper-232cHJ /* Ping Wrapper */, .iconBadge-qZ4Ksk
 /* New Pins Badge */, .switch-3wwwcV.valueChecked-m-4IJZ /* Enabled Switch */, .side-8zPYf6 .role-3wi9Tf.selected-3s45Ha.item-PXvHYJ /* Role Selection Selected Item */,
-.selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .item-2hkk8m,
-.unread-3zKkbm /* Unread Message Dots */, .mention-1f5kbO, .mention-1f5kbO:active /* Mention Bar Guilds */, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerXbox-3G-4PF,
+.selectorButtonSelected-336oUc /* Stream Quality Buttons */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span /* Checkbox Right */, .mention-1f5kbO, .mention-1f5kbO:active /* Mention Bar Guilds */, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerXbox-3G-4PF,
 .headerSpotify-zpWxgT /* User Popout Header Streaming/Playing/Xbox/Spotify */, .wanderingCubesItem-WPXqao /* Wandering Cubes/Loading */, .topSectionXbox-3fWLjS,
 .topSectionSpotify-1lI0-P, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X /* User Modal Header Streaming/playing/Spotify/Xbox */, .datePicker--XZbmJ .calendarPicker-2yf6Ci
 .react-datepicker__day.react-datepicker__day--selected:hover, .datePicker--XZbmJ .calendarPicker-2yf6Ci .react-datepicker__day:hover /* Selected Day React Datepicker */,
@@ -371,6 +370,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Category Pill Server Discovery */, .paymentSourceRow-3FbcL_ .premiumIndicator-1XvbfM /* Premium Indicator Payment Methods */, .localBot-GrCgVt:before,
 .replying-1x3H0T:before  /* Local Bot message and replying Side block */ {
   background-color: var(--ColAccent);
+}
+
+.item-2hkk8m, .unread-3zKkbm /* Unread Message Dots */{
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .item-26Dhrx[style*="rgb(114, 137, 218)"] /* Overwrite Default Item Color */, .selectableItem-1MP3MQ.selected-31soGA /* Selectable Item Selected (e.g. Audit Log Popout) */,
