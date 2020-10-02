@@ -1,12 +1,15 @@
 /*/////////////////////////////////////*/
 /*//////// M Makes Bot Tag Round //////*/
 /*/////////////////////////////////////*/
+
 .botTag-2WPJ74 {
     border-radius: 20px !important;
 }
+
 /*/////////////////////////////////////*/
 /*///////// Custom Home Button ////////*/
 /*/////////////////////////////////////*/
+
 .listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
   background: var(--HomeIconImg); /* image url */
   background-size: contain;
@@ -23,7 +26,9 @@
   color: var(white);
 }
 
-/* Mini Member list */
+/*/////////////////////////////////////*/
+/*////////// Mini Member list /////////*/
+/*/////////////////////////////////////*/
 /*
 .membersWrap-2h-GB4 {
    min-width: unset;
@@ -70,6 +75,7 @@
 /*/////////////////////////////////////*/
 /*//////////// Better roles ///////////*/
 /*/////////////////////////////////////*/
+
 .role-2irmRk {
   position: relative;
   overflow: hidden;
@@ -96,6 +102,7 @@
 /*/////////////////////////////////////*/
 /*/////////// Bot tag Color ///////////*/
 /*/////////////////////////////////////*/
+
 .botTagRegular-2HEhHi {
     transition: .5s;
     background: rgba(114,137,218,0.1);
@@ -110,6 +117,7 @@
 /*/////////////////////////////////////*/
 /*///////// sum'n with Links //////////*/
 /*/////////////////////////////////////*/
+
 #EmbedLinks {
     background-color: rgb(67, 181, 129);
     border-radius: 20px;
@@ -121,6 +129,7 @@
 /*/////////////////////////////////////*/
 /*////////////// EMOJI ////////////////*/
 /*/////////////////////////////////////*/
+
 .emojiUploader-1f0pVx,
 div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
     display: none
@@ -148,6 +157,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////*/
 /*///////// Rainbow AudioViz //////////*/
 /*/////////////////////////////////////*/
+
 @keyframes rainbow-audioviz-color {
   0%,
   100% {background-color: #6666ff}
@@ -159,6 +169,10 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 .vp-audioviz-bar {
   animation: rainbow-audioviz-color 10s ease-in-out infinite !important;
 }
+
+/*/////////////////////////////////////*/
+/*////// Ripple Effect VC Icons ///////*/
+/*/////////////////////////////////////*/
 
 .iconWrapper-2OrFZ1::after {
     content:'';
@@ -181,6 +195,11 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
     opacity:.24;
     transition: opacity 50ms linear, transform 150ms ease;
 }
+
+/*/////////////////////////////////////*/
+/*////// Reveal Spoiler on Hover //////*/
+/*/////////////////////////////////////*/
+
 .spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
         opacity: 1;
         border-radius: 3px;
@@ -227,6 +246,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////*/
 /*///// Fly in Voice Chat buttons /////*/
 /*/////////////////////////////////////*/
+
 .container-3baos1 .noWrap-3jynv6 {
     width: 0px;
     opacity: 0;
@@ -242,12 +262,14 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////*/
 /*//////// Center profile tabs ////////*/
 /*/////////////////////////////////////*/
+
 .tabBar-2MuP6-{ justify-content: center; }
 .top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
 
 /*/////////////////////////////////////*/
 /*/// Make autocomplete scrollable ////*/
 /*/////////////////////////////////////*/
+
 .autocomplete-1vrmpx {
   max-height: calc(100vh - 120px);
   overflow-y: scroll;
@@ -264,6 +286,10 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
   height: 8px;
 }
 
+/*/////////////////////////////////////*/
+/*////// Rainbow Server Settings //////*/
+/*/////////////////////////////////////*/
+
 @keyframes rainbow-server-settings-button {
   from {color: #6666ff}
   25%  {color: #0099ff}
@@ -278,6 +304,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////*/
 /*////// Rainbow User Menu Icons //////*/
 /*/////////////////////////////////////*/
+
 @keyframes pride {
         100%,0%{
             color: rgb(255,0,0);
@@ -362,4 +389,171 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
    font-weight: bold;
    padding-left: 5px;
    color: #747F8D
+}
+
+/*/////////////////////////////////////*/
+/*/////////// Dropdown Menu ///////////*/
+/*/////////////////////////////////////*/
+
+div[id="message-actions"] {
+  min-width: 0px;
+  width: 57px;
+  transition: 1s;
+}
+div[id="message-actions"]:hover {
+  min-width: 0px;
+  width: 200px;
+  transition: 0.5s;
+}
+
+/*/////////////////////////////////////*/
+/*//// Larger Profile Modal Images ////*/
+/*/////////////////////////////////////*/
+.headerTop-3C2Zn0 {
+    min-height: 250px;
+    padding: 0;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
+    left: 0;
+    bottom: 0;
+    width: 250px;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
+    height: 250px !important;
+    width: 250px !important;
+}
+.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
+.avatarHintInner-Dco91E {
+    font-size: 0.4em;
+    text-shadow: 1px 1px 3px black;
+}
+.headerTop-3C2Zn0 foreignObject {mask: none !important;}
+.headerTop-3C2Zn0 rect {
+    border-radius: 0;
+    x: 0; y: 79;
+    width: 80px;
+    height: 3px;
+    mask: none;
+}
+.headerText-2sdzFM {padding-bottom: 5px;}
+
+/*/////////////////////////////////////*/
+/*//////// Compact Status Menu ////////*/
+/*/////////////////////////////////////*/
+
+.status-1fhblQ, .description-2L932D {
+    display: none;
+}
+.separator-2I32lJ {
+    display: none;
+}
+.mask-1qbNWk.icon-1IxfJ2 {
+    --status-icon-size: 75%;
+    height: var(--status-icon-size);
+    width: var(--status-icon-size);
+    margin-left: 33%;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    visibility: visible;
+}
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+    grid-column: 1/5;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+    transition: opacity 0.15s linear 0s;
+}
+.customText-tY5LJn {
+    font-size: 15px;
+}
+
+/*/////////////////////////////////////////////*/
+/* Cleaner status picker with gradient buttons */
+/*/////////////////////////////////////////////*/
+
+#status-picker .separator-2I32lJ, #status-picker .description-2L932D {
+  display: none;
+}
+#status-picker .focused-3afm-j {
+  background: linear-gradient(45deg, #2b45a2, #7289da);
+}
+#status-picker .focused-3afm-j#status-picker-online {
+  background: linear-gradient(45deg, #21583f, #43b581);
+}
+#status-picker .focused-3afm-j#status-picker-idle {
+  background: linear-gradient(45deg, #915c03, #faa61a);
+}
+#status-picker .focused-3afm-j#status-picker-dnd {
+  background: linear-gradient(45deg, #aa0e0e, #f04747);
+}
+#status-picker .focused-3afm-j#status-picker-invisible {
+  background: linear-gradient(45deg, #3a4047, #747f8d);
+}
+
+/*/////////////////////////////////////*/
+/*//////// SmallerServerName //////////*/
+/*/////////////////////////////////////*/
+
+.container-PNkimc .header-2o-2hj {
+    height: 25px;
+    transition: ease-in-out 0.2s;
+}
+.container-PNkimc .header-2o-2hj * {
+    transition: ease-in-out 0.3s;
+}
+.container-PNkimc .header-2o-2hj *:not(.name-3YKhmS) {
+    opacity: 0;
+}
+.container-PNkimc .header-2o-2hj .name-3YKhmS {
+    transform: translateX(-10px);
+    font-size: 11px;
+}
+.container-PNkimc .header-2o-2hj:hover {
+    height: 48px;
+}
+.container-PNkimc .header-2o-2hj:hover *:not(.name-3YKhmS) {
+    opacity: 1;
+}
+.container-PNkimc .header-2o-2hj:hover .name-3YKhmS {
+    transform: translateX(0px);
+    font-size: 14px;
+}
+
+/*/////////////////////////////////////*/
+/*/// Fly in Voice Chat buttons fix ///*/
+/*/////////////////////////////////////*/
+
+.panels-j1Uci_ .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ .container-3baos1 button:not([role="switch"]) {
+    transition: 0.2s ease-in-out;
+    width: 0px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+.panels-j1Uci_ .container-3baos1:hover button.button-14-BFJ {
+    transition: 0.2s ease-in-out;
+    width: 32px !important;
+    overflow: visible !important;
+    opacity: 1 !important;
+
+/*/////////////////////////////////////*/
+/*/////// Larger Ping icon in VC //////*/
+/*/////////////////////////////////////*/
+
+.ping-2NgC8E {
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    height: 20px;
+}
+
+.channel-1TmDQ6 {
+    margin-left: 30px;
+    margin-top: -9px;
+}
+
+.rtcConnectionStatusConnected-VRZDjy {
+    margin-left: 5px;
 }
