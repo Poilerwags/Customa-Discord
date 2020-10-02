@@ -359,6 +359,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////////////*/
 /* Hide Textbox when you don't have permission */
 /*/////////////////////////////////////////////*/
+
 .channelTextAreaDisabled-8rmlrp>div {
     display: none;
 }
@@ -366,6 +367,7 @@ div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1
 /*/////////////////////////////////////*/
 /*////// Add Status Text in DMs ///////*/
 /*/////////////////////////////////////*/
+
 [aria-label="Online"]::after {
    content: 'ONLINE';
    font-weight: bold;
@@ -409,6 +411,7 @@ div[id="message-actions"]:hover {
 /*/////////////////////////////////////*/
 /*//// Larger Profile Modal Images ////*/
 /*/////////////////////////////////////*/
+
 .headerTop-3C2Zn0 {
     min-height: 250px;
     padding: 0;
