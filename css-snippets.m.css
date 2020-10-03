@@ -434,36 +434,6 @@ div[id="message-actions"]:hover {
 }
 
 /*/////////////////////////////////////*/
-/*//////// SmallerServerName //////////*/
-/*/////////////////////////////////////*/
-
-.container-PNkimc .header-2o-2hj {
-    height: 25px;
-    transition: ease-in-out 0.2s;
-}
-.container-PNkimc .header-2o-2hj * {
-    transition: ease-in-out 0.3s;
-}
-.container-PNkimc .header-2o-2hj *:not(.name-3YKhmS) {
-    opacity: 0;
-}
-.container-PNkimc .header-2o-2hj .name-3YKhmS {
-    transform: translateX(-10px);
-    font-size: 11px;
-    text-align: center;
-}
-.container-PNkimc .header-2o-2hj:hover {
-    height: 48px;
-}
-.container-PNkimc .header-2o-2hj:hover *:not(.name-3YKhmS) {
-    opacity: 1;
-}
-.container-PNkimc .header-2o-2hj:hover .name-3YKhmS {
-    transform: translateX(0px);
-    font-size: 14px;
-}
-
-/*/////////////////////////////////////*/
 /*/// Fly in Voice Chat buttons fix ///*/
 /*/////////////////////////////////////*/
 
