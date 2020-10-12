@@ -493,3 +493,82 @@ div[id="message-actions"]:hover {
         box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary);;;
     }
 }
+
+/*/////////////////////////////////////*/
+/*////// Seperate Plugin Setings //////*/
+/*/////////////////////////////////////*/
+
+.item-PXvHYJ[data-item-id=pc-updater] { height: 4.65rem; }
+
+.item-PXvHYJ[data-item-id=pc-updater]:hover {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 43%,
+        rgba(0, 0, 0, 0.2) 43.01%, rgba(0, 0, 0, 0.2) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
+  background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 43%,
+        rgba(0, 0, 0, 0.3) 43.01%, rgba(0, 0, 0, 0.3) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:after {
+    position: absolute;
+    margin-top: calc(2rem + 3px); margin-left: -3.5rem;
+
+    border-top: 1px solid var(--background-modifier-accent);
+    line-height: 2.6rem; width: 90%;
+
+  content: "Plugin Settings";
+    color: rgb(159, 159, 159);
+    text-transform: uppercase;
+    font-weight: 700; font-size: 12px;
+}
+
+/*/////////////////////////////////////*/
+/*/////////// Bot Tag Icon ////////////*/
+/*/////////////////////////////////////*/
+
+.px-10SIf7.botTag-2WPJ74 {
+    height: 15px;
+    padding: 0 4px;
+    margin-top: 1px;
+    padding-right: 0px;
+    border-radius: 3px;
+}
+
+span.botText-1526X_::before {
+    font-family: "Font Awesome 5 Pro" !important;
+    content: "\f544";
+    font-weight: 900;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+span.botText-1526X_ {
+    visibility: hidden;
+    position: relative;
+}
+
+/*/////////////////////////////////////*/
+/*///// Rainbow Codeblock Numbers /////*/
+/*/////////////////////////////////////*/
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.powercord-codeblock-table > tr > td:nth-child(1) {
+    background: linear-gradient(45deg, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
