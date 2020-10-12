@@ -6,7 +6,7 @@
   --INTVarBase: "\A\A Base - Module"
     "\A \2022  --ColAccent \2192  Allowed Values: Color (pref. #d81b60)"
     "\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(216, 27, 96, .1))"
-    "\A \2022  --ColAppBG \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --BackgroundImg \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColBackground1 \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColBackground2 \2192  Allowed Values: Color (pref. #212121)"
     "\A \2022  --ColChannelList \2192  Allowed Values: Color (pref. #212121)"
@@ -37,7 +37,7 @@
 
   --ColAccent: #429ef5; /* Color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
-  --ColAppBG: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
   --ColBackground1: rgba(0, 0, 0, .3); /* Color */
   --ColBackground2: rgba(0, 0, 0, .5); /* Color */
   --ColChannelList: rgba(0, 0, 0, .4); /* Color */
@@ -72,7 +72,7 @@
 
 /* App Background */
 body /* Discord Application Body */ {
-  background: var(--ColAppBG);
+  background: var(--BackgroundImg);
   background-position: center;
 }
 
@@ -1478,7 +1478,7 @@ path.fill {
   content: "";
   height: 52px;
   width: 72px;
-  background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--ColAppBG)!important;
+  background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--BackgroundImg)!important;
   background-size: 46px 46px!important;
   display: block!important;
   visibility: visible!important;

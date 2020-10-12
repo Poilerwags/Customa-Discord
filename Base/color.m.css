@@ -4,10 +4,10 @@
   --ColChat: white;
   --ColFont: white;
   --ColFontBright: white;
-  --ColFontUnread: #FF4343; /* Red */
-  --ColFontHovered: #70ff48; /* Green */
-  --ColFontMain: #3a7bff; /* Dark Blue */
-  --ColFontSelected: #16F3EE; /* Light Blue */
+  --UnreadColor: #FF4343; /* Red */
+  --HoverColor: #70ff48; /* Green */
+  --MainColor: #3a7bff; /* Dark Blue */
+  --SelectedColor: #16F3EE; /* Light Blue */
   --ColFontPlaceholder: green;
 }
 
@@ -24,12 +24,12 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
 }
 
 /* Channels Hovered */ .channel-2QD9_O:hover *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v) /* Private Channel */, .containerDefault-1ZnADq:hover *:not(.numberBadge-2s8kKX):not(.liveRed-lUmv1v), .wrapper-1ucjTd.modeSelected-1zApJ_:hover * /* Guild Channel */{
-    color: var(--ColFontHovered)!important;
+    color: var(--HoverColor)!important;
     transition: color 200ms;
 }
 
 .containerDefault-3GGEv_ * /* Channel Categories */{
-    color: var(--ColFontMain)!important;
+    color: var(--MainColor)!important;
     transition: color 200ms;
 }
 
@@ -39,12 +39,12 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ * /* Guild Channel */{
-    color: var(--ColFontSelected)!important;
+    color: var(--SelectedColor)!important;
     transition: color 200ms;
 }
 
 /* Channels Unread */ .containerDefault-1ZnADq .modeUnread-1zpFdA *:not(.numberBadge-2s8kKX){
-color: var(--ColFontUnread)!important;
+color: var(--UnreadColor)!important;
 transition: color 200ms;
 }
 
