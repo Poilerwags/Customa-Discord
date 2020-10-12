@@ -148,9 +148,9 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Dark Background */
-.searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
+.searchBar-6Kv8R2 /* Search Bar Box DMs */,
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2o-2hj, .hasBanner-14PPlG .header-2o-2hj,
-.clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */, .form-2fGMdU /* Main Textarea */,
+.clickable-2ap7je .header-2o-2hj:hover, .header-2o-2hj::before /* Server Header */,
 .typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj
 /* Unread Bar Channel List */, .root-3R2ngo .perksModal-fSYqOq /* Perks Modal */, .quickswitcher-3JagVE
 /* Quickswitcher */, .focusLock-Ns3yie .root-1gCeng
@@ -166,7 +166,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .button-2CgfFz.removeOverride-2sdvVX:hover /* Remove Notification Override Button */, .popouts-2bnG9Z .popout-2sKjHu /* Pay with popout Subscriptions Settings */,
 .container-3PXSwK[style*="linear-gradient(to right, rgb(251, 184, 72), rgb(67, 181, 129))"] .progress-1IcQ3A /* Progress Bar Mic Test */, .wrapper-2aW0bm
 /* Message Buttons Chat (Reacting, etc) */, .content-1o0f9g /* Divider Chat New Day */, .streamPreviewWrapper-2DSWOK .streamPreview-2-WUWT /* Stream Preview Popout */,
-.channelName-1JRO3C /* Channel Name Search Wrap */, .users-i_3-kL /* Current Users Voice Channel */, .popouts-2bnG9Z
+.channelName-1JRO3C /* Channel Name Search Wrap */, .popouts-2bnG9Z
 .addGamePopout-2RY8Ju /* Add Game Popout */, .keybindGroup-JQs9x_ .removeKeybind-39dSFj, .keybindGroup-JQs9x_:hover .removeKeybind-39dSFj /* Remove Keybind Button */,
 .game-1ipmAa .removeGame-2JFGPn, .game-1ipmAa:hover .removeGame-2JFGPn /* Remove Game Button */, .incomingCallInner-2VmFiR /* Incoming Call */, .authBox-hW6HRx /* Login Box */,
 .tierMarkerContainer-2BmgqV .tierMarkerBackground-3q29am /* Tier Markers Server Boost Modal */, .uploadModalIn-1z07Bv
@@ -174,8 +174,16 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .quickSelectPopout-X1hvgV /* Region Selector DM Calls */, .container-2Yth53 .contentWrapper-3WC1ID /* Join Guild Menu */, .chat-3bRxxu .wrapper-2qzCYF /* Call Background */,
 .unicodeShortcut-15J8Ck /* Unicode Shortcut Emoji Picker */, .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .root-1bFE0x.whyYouMightLikeIt-2zZIIj
 /* Store why you might like it */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
-/* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emote Picker */, .panels-j1Uci_ /* Panels User Menu */ {
+/* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emote Picker */ {
   background-color: var(--ColBackground1);
+}
+
+.users-i_3-kL /* Current Users Voice Channel */ {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.panels-j1Uci_ /* Panels User Menu */ {
+  background-color: rgba(0, 0, 0, 0.4)
 }
 
 .attachPopout-36hjtN /* Popout Upload/Send Invite */{
@@ -730,19 +738,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .chat-3bRxxu {
   overflow: visible;
-}
-
-.typing-2GQL18::before {
-  content: "";
-  width: 50px;
-  display: block;
-  position: absolute;
-  left: -8px;
-  height: 28px;
-  bottom: 0;
-  background-color: var(--ColBackground1);
-  border-top-left-radius: 10px;
-  z-index: -1;
 }
 
 .form-2fGMdU {
