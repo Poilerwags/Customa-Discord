@@ -115,17 +115,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .layer-v9HyYc .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Member Filter Popout */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
-<<<<<<< HEAD
 .layer-v9HyYc .messagesPopoutWrap-1MQ1bW, .layer-v9HyYc .recentMentionsPopout-3rCiI6 /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */,
 .contentWrapper-SvZHNd, .emojiPicker-3PwZFl /* Emoji Picker */, .wrapper-1-Fsb8.header-ywPcAE /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2
 /* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu
-/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .container-ZRw2kD /* New Emoji Server Help */, .container-3LUQwT
-=======
-.layer-v9HyYc .messagesPopoutWrap-1MQ1bW, .layer-v9HyYc .recentMentionsPopout-3rCiI6 /* Pin/Mentions Popout */, .layer-v9HyYc .popout-13LQ_3 /* Popout Friends Table */, 
-.contentWrapper-SvZHNd, .emojiPicker-3PwZFl /* Emoji Picker */, .wrapper-1-Fsb8.header-ywPcAE /* Server Header Emoji Picker */, .layer-v9HyYc .colorPickerCustom-2CWBn2 
-/* Color Picker Roles */, .layer-v9HyYc .popout-38lTFE /* Popout Friends Activity */, .layer-v9HyYc .guildPopout-3CgKqR /* Guild Popout "Server" Hook */, .css-123uooi-menu 
-/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .popoutContainer-1MXdqN /* New Emoji Server Help */, .container-3LUQwT 
->>>>>>> upstream/main
+/* Language Selector Discover */, .popout-2iWAc- .everyonePopout-nEbJY3 /* @everyone Ping Warning */, .popoutContainer-1MXdqN /* New Emoji Server Help */, .container-3LUQwT
 /* Popout View as Role */ {
   background-color: var(--ColPopout);
 }
@@ -502,7 +495,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus /* Focus on Input Element */, .emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S /* Selected Category Emoji Picker */,
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover /* Region Select Screen Region */, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked + span
 /* Checkbox Right */, .footer-1fjuF6 .quickMessage-1yeL4E:focus /* QuickMessage Textarea User Popout */, .dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:focus,
-.dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .dropdown-2fxkrS .lookFilled-1h1y05.selectOpen-hQuR6b 
+.dropdown-2fxkrS .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .dropdown-2fxkrS .lookFilled-1h1y05.selectOpen-hQuR6b
 /* Payment Selection Dropdown Subscriptions Settings */, .isUnread-3Ef-o9 /* Unread Divider Chat */, .imageSelected-4Kl81J /* Screenshare Selected Window */,
 .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV:focus, .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b,
 .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b:hover /* Select Box Change Custom Status */, .horizontalAutocomplete-L5KnTN
