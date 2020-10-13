@@ -270,17 +270,14 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColTransparent2);
 }
 
-.wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
+.message-2qnXI6, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.message-2qnXI6 .embedWrapper-lXpS3L /* Embed Background */ {
-  background-color: rgba(0, 0, 0, 0.6);
+.embedWrapper-lXpS3L /* Embed Background */ {
+  background-color: rgba(0, 0, 0, 0.0);
 }
-/* Image Background */
-.message-2qnXI6{
-  background-color: rgba(0, 0, 0, 0);
-}
+
 
 /* Dark Transparency Effect */
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx /* Search Bar DMs */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Selected Channel DMs */,
