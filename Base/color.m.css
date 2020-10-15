@@ -48,7 +48,6 @@ color: var(--UnreadColor)!important;
 transition: color 200ms;
 }
 
-#ff5747
 .item-PXvHYJ[style='border-color: rgb(79, 84, 92); color: rgb(79, 84, 92);'] /* Tabbar Item */, .friendsTableHeader-32yE7d, .headerCell-2jGIdL, .stickyHeader-1pqx0j /* Table Header */, .divider-3gKybi .dividerContent-2L12VI:after, .divider-3gKybi .dividerContent-2L12VI:before /* Dividers e.g. chat date */, .bodySection-jqkkIP, .sku-epQEb_ /* Game Store */, .powercord-settings-item.powercord-category .powercord-settings-item-inner /* Powercord Settings Category Side Border */{
     border-color: var(--ColFont)!important;
 }
