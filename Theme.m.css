@@ -58,7 +58,10 @@
   --ColFontPlaceholder: green;
   --text-link: var(--ColLink);
 
-  --ColAccentAlpha: rgba(216, 27, 96, .1); /* Color with Alpha */
+  --ColAccent: #429ef5; /* Color */
+  --ColAccentAlpha: rgba(0, 0, 0, .3); /* Color with Alpha */
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png'); /* Color or url('link to image') */
+  --HomeIconImg: url("https://i.imgur.com/6PkGYYE.png"); /* Color or url('link to image') */
   --ColBackground1: rgba(0, 0, 0, .3); /* Color */
   --ColBackground2: rgba(0, 0, 0, .5); /* Color */
   --ColChannelList: rgba(0, 0, 0, .4); /* Color */
@@ -69,9 +72,9 @@
   --ColUserModal: rgba(0, 0, 0, .65); /* Color */
   --ColSpoilerCovered: rgba(0, 0, 0, .4); /* Color */
   --ColSpoilerUncovered: transparent; /* Color */
-  --ColFont: #429ef5; /* Color */
-  --ColTransparent1: rgba(0, 0, 0, .4); /* Transparent Color */
-  --ColTransparent2: rgba(252, 252, 252, .2); /* Transparent Color */
+  --ColFont: #ffffff; /* Color */
+  --ColTransparent1: rgba(0, 0, 0, 0.4); /* Transparent Color */
+  --ColTransparent2: rgba(252, 252, 252, 0.2); /* Transparent Color */
   --ColLink: var(--ColAccent); /* Color */
   --ColWindowBar: #2fff00; /* Color */
   --DisplayButtonEmoji: flex; /* Flex or none */
@@ -84,6 +87,22 @@
   --DisplayNitroMenu: none; /* Block or none */
   --DisplayLibraryMenu: none; /* Block or none */
   --FilterAccountSecurity: blur(4px); /* Filter */
+
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 15%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 0;
 
   --hover-animation-speed: 0.35s;
   --seperator-color: var(--background-accent);
