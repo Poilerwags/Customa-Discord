@@ -448,7 +448,7 @@ div[id="message-actions"]:hover {
     width: 32px !important;
     overflow: visible !important;
     opacity: 1 !important;
-
+}
 /*/////////////////////////////////////*/
 /*/////// Larger Ping icon in VC //////*/
 /*/////////////////////////////////////*/
@@ -495,7 +495,7 @@ div[id="message-actions"]:hover {
 }
 
 /*/////////////////////////////////////*/
-/*////// Seperate Plugin Setings //////*/
+/*////// Seperate Plugin Settings /////*/
 /*/////////////////////////////////////*/
 
 .item-PXvHYJ[data-item-id=pc-updater] { height: 4.65rem; }
