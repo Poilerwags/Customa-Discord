@@ -572,3 +572,34 @@ span.botText-1526X_ {
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
 }
+
+/*/////////////////////////////////////*/
+/*///// Colorized Buttons Top Bar /////*/
+/*/////////////////////////////////////*/
+
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #eab618;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c048;}
+
+/*/////////////////////////////////////*/
+/*/// Colored Emote Button Text Bar ///*/
+/*/////////////////////////////////////*/
+
+.sprite-2iCowe {
+  filter: grayscale(0) !important;
+}
+
+/*/////////////////////////////////////*/
+/*// Alternative Selected Highlight ///*/
+/*/////////////////////////////////////*/
+
+.modeSelected-1zApJ_ .children-Bmpf2Q {
+  background-color: #7289da;
+  height: 30px;
+  padding-left: 6px;
+  padding-right: 8px;
+  margin-right: -8px;
+  border-radius: 16px 4px 4px 0px;
+}
+.modeSelected-1zApJ_ .content-3at_AU{
+  border-bottom: #7289da 2px solid;
+}
