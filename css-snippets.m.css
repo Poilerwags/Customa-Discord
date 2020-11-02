@@ -1,5 +1,5 @@
 /*/////////////////////////////////////*/
-/*//////// M Makes Bot Tag Round //////*/
+/*//////// Makes Bot Tag Round ////////*/
 /*/////////////////////////////////////*/
 
 .botTag-2WPJ74 {
@@ -574,7 +574,7 @@ span.botText-1526X_ {
 }
 
 /*/////////////////////////////////////*/
-/*///// Colorized Buttons Top Bar /////*/
+/*//// Colorized Buttons Titlebar /////*/
 /*/////////////////////////////////////*/
 
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #eab618;}
@@ -586,20 +586,4 @@ span.botText-1526X_ {
 
 .sprite-2iCowe {
   filter: grayscale(0) !important;
-}
-
-/*/////////////////////////////////////*/
-/*// Alternative Selected Highlight ///*/
-/*/////////////////////////////////////*/
-
-.modeSelected-1zApJ_ .children-Bmpf2Q {
-  background-color: #7289da;
-  height: 30px;
-  padding-left: 6px;
-  padding-right: 8px;
-  margin-right: -8px;
-  border-radius: 16px 4px 4px 0px;
-}
-.modeSelected-1zApJ_ .content-3at_AU{
-  border-bottom: #7289da 2px solid;
 }
