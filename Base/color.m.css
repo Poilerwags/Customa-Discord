@@ -33,19 +33,23 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
     transition: color 200ms;
 }
 
-.containerDefault-3GGEv_:hover * /* Channel Categories */{
-    color: #6ec9fa!important;
+.containerDefault--pIXnN:hover * /* Channel Categories */{
+    color: var(--HoverColor)!important;
     transition: color 200ms;
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ * /* Guild Channel */{
+.containerDefault--pIXnN.selected-3LIHYU * /* Guild Channel */{
     color: var(--SelectedColor)!important;
     transition: color 200ms;
 }
 
-/* Channels Unread */ .containerDefault-1ZnADq .modeUnread-1zpFdA *:not(.numberBadge-2s8kKX){
-color: var(--UnreadColor)!important;
-transition: color 200ms;
+/* Channels Unread */ .wrapper-2jXpOf.modeUnread-1qO3K1 *:not(.numberBadge-2s8kKX){
+    color: var(--UnreadColor)!important;
+    transition: color 200ms;
+}
+
+.unread-2lAfLh {
+    background-color: #ff4343;
 }
 
 .item-PXvHYJ[style='border-color: rgb(79, 84, 92); color: rgb(79, 84, 92);'] /* Tabbar Item */, .friendsTableHeader-32yE7d, .headerCell-2jGIdL, .stickyHeader-1pqx0j /* Table Header */, .divider-3gKybi .dividerContent-2L12VI:after, .divider-3gKybi .dividerContent-2L12VI:before /* Dividers e.g. chat date */, .bodySection-jqkkIP, .sku-epQEb_ /* Game Store */, .powercord-settings-item.powercord-category .powercord-settings-item-inner /* Powercord Settings Category Side Border */{
