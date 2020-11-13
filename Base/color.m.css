@@ -28,6 +28,14 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
     transition: color 200ms;
 }
 
+
+.containerDefault-3tr_sE .wrapper-PY0fhH, .container-2ax-kl {
+    color: var(--MainColor)!important;
+}
+
+.wrapper-PY0fhH.muted-2JBAyG, .wrapper-PY0fhH.muted-2JBAyG .name-3l27Hl {
+  color: #4f545c!important;
+}
 .containerDefault-3GGEv_ * /* Channel Categories */{
     color: var(--MainColor)!important;
     transition: color 200ms;

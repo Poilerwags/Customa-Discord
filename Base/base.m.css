@@ -106,10 +106,17 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background: transparent;
 }
 
-/* Channel Sidebars */
-.sidebar-2K8pFh /* Channel Wrapper */, .container-PNkimc .scroller-2FKFPG > div
-/* "Overscroll" Banner Image */ {
+.base-3dtUhz .sidebar-2K8pFh {
   background-color: var(--ColChannelList);
+}
+
+.sidebar-2K8pFh .container-3w7J-x {
+    background-color: transparent;
+}
+
+.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
+.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
+    background-color: rgba(255, 255, 255, 0.2));
 }
 
 .layer-v9HyYc .container-3ayLPN /* Search Popup */, .popout-2iWAc- .popoutList-T9CKZQ /* Member Filter Popout */, .layer-v9HyYc .modal-yWgWj- /* Invite to DMs Popup */,
