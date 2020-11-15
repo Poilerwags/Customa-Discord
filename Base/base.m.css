@@ -35,7 +35,7 @@
   /* stylelint-enable */
   --text-link: var(--ColLink);
 
-  --ColAccent: #d81b60; /* color */
+  --ColAccent: #429ef5; /* color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
   --ColAppBG: #161616; /* background */
   --ColBackground1: rgba(0, 0, 0, .3); /* color */
@@ -246,9 +246,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .paginator-166-09 /* Payment History Billing Screen */, .cardWrapper-2Min21 /* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover
 /* Button Chat Actions Hover Effect */, .item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode
 .message-2qnXI6.localBot-GrCgVt:hover /* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */,
-.rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */,
-.message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L
-/* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
+.rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
 /* Has More Button Recent Mentions */, .button-F9qN4n /* Emoji Reaction */, .header-1RC2Wb, .body-SKIE6r /* Gift Inventory */,
 .header-2-Imhb.header-ykumBX .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* Mentions Popup Mentions Tag */, .secondary-dIudih /* Filter Button Mentions Popup */,
 .messageContainer-gbhlwo /* Message Container Recent Mentions */, .tertiary-aMXF0g /* Tertiary Color - used in Jump Button Recent Mentions */,
@@ -275,6 +273,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Time limitation Sticker Store */, .imageWrapper-2p5ogY .wrapper-2TxpI8 /* Image/Video Wrapper */, .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
 /* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */ {
   background-color: var(--ColTransparent2);
+}
+
+.message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
+  background-color: rgba(0, 0, 0, 0.35)
 }
 
 .message-2qnXI6, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
