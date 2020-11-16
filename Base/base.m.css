@@ -55,8 +55,8 @@
   --ColWindowBar: #2fff00; /* color */
   --DisplayButtonEmoji: flex; /* select[flex|True;none|False] */
   --DisplayButtonGIF: flex; /* select[flex|True;none|False] */
-  --DisplayButtonGift: none; /* select[flex|True;none|False] */
-  --DisplayButtonSticker: none; /* select[flex|True;none|False] */
+  --DisplayButtonGift: flex; /* select[flex|True;none|False] */
+  --DisplayButtonSticker: flex; /* select[flex|True;none|False] */
   --DisplayEmbedPill: solid; /* select[solid|True;none|False] */
   --DisplayToolbar: flex; /* select[flex|True;none|False] */
   --DisplayEmojiQuickReaction: none; /* select[flex|True;none|False] */
