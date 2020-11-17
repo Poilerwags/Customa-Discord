@@ -58,6 +58,8 @@
   --ColFontPlaceholder: green;
   --text-link: var(--ColLink);
 
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png');
+
   --ColAccent: #429ef5; /* color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
   --ColBackground1: rgba(0, 0, 0, .3); /* color */
