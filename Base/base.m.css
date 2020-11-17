@@ -35,6 +35,8 @@
   /* stylelint-enable */
   --text-link: var(--ColLink);
 
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png');
+
   --ColAccent: #429ef5; /* color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
   --ColBackground1: rgba(0, 0, 0, .3); /* color */
@@ -421,7 +423,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .mouse-mode .message-2qnXI6.mentioned-xhSam7:hover, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z /* Hovered Message also Mentioned */, .wrapper-3WhCwL
 /* Wrapper Mention/Chat */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, .buffer-26XPkd, .buffer-26XPkd::after,
 .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */, .localBot-GrCgVt, .replying-1x3H0T /* Local Bot message and replying */ {
-  background-color: rgba(0, 0, 0, 3);
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .centerButton-3CaNcJ:not(.joinButton-1-UsTC):not(.red-33-Lnk):hover /* Call Buttons */ {
