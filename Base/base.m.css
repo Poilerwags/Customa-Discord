@@ -759,17 +759,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   justify-content: left;
 }
 
-.chatContent-a9vAAp .form-2fGMdU::before {
-  content: "";
-  display: block;
-  width: 8px;
-  background: var(--ColBackground1);
-  position: absolute;
-  z-index: 200;
-  left: -8px;
-  height: calc(100% - 52px);
-}
-
 /* Join to game Bar Textarea */
 .activityInviteEducation-8C0Czp {
   background: var(--ColBackground1);
@@ -910,8 +899,8 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .buttons-3JBrkn {
   background: var(--ColBackground1);
   position: absolute;
-  right: 6px;
-  transform: translateX(490px);
+  right: 66px;
+  transform: translateX(305px);
   transition: transform 200ms 400ms;
   top: -44px;
   overflow: hidden;
