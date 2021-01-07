@@ -101,7 +101,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Scroller DM Chats */, .members-1998pB, .members-1998pB > div /* Members Wrap Inner */, .scroller-2TZvBN /* Guild Wrapper */, .contentRegionScroller-26nc1e
 /* Content Region Settings */, .sidebarRegionScroller-3MXcoP /* Sidebar Region Settings */, .userPopout-3XzG_A .body-3iLsc4 /* User Popout Body */, .scroller-zPkAnE
 /* Quickswitcher Scroller */, .scroller-305q3I /* Role Scroller Settings */, .wrapper-3vR61M, .wrapper-1F5TKx /* New Loading Screen Chat Content */, .container-9gOVw0
-/* Quoting*/, .emojiSection-3Fb9ix /* New Emoji Server Help Inner */, .phoneField-38N1bJ .inputField-aNPXsv /* Phone Number Text Field */, .wrapper-uf3cnO 
+/* Quoting*/, .emojiSection-3Fb9ix /* New Emoji Server Help Inner */, .phoneField-38N1bJ .inputField-aNPXsv /* Phone Number Text Field */, .wrapper-uf3cnO
 /* Wrapper New Command Handler Bot List */ {
   background-color: transparent;
 }
@@ -177,7 +177,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .channelHeader-3Gd2xq /* Channel Header Recent Mentions */, .root-1bFE0x.whyYouMightLikeIt-2zZIIj /* Store why you might like it */, .unicodeShortcut-15J8Ck
 /* Unicode Shortcut Emoji Picker */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emoji Picker */, .stickerCategoryShopWrapper-3EnJdQ
-/* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94 
+/* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94
 /* Category Header Command Handler */ {
   background-color: var(--ColBackground1);
 }
@@ -275,7 +275,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .stickerCategoryShopWrapper-3EnJdQ:hover .stickerCategoryShop-d5zC3B /* Hovered Sticker Category Shop */, .viewAllBackground-3Bn1vh /* View All Sticker Shop */, .feature-3kpTdS
 /* Time limitation Sticker Store */, .imageWrapper-2p5ogY .wrapper-2TxpI8 /* Image/Video Wrapper */, .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
 /* Voice User hovered */, .tile-2naSqK, .button-3HqqDX /* Default Tile Voice Channel */, .category-2SZJwK, .channelName-3y9uE0, .channelIcon-CCo35e /* Loading Channel */,
-.item-26Dhrx /* Radio Button Settings */, .selected-3xBBKs, .selected-3xBBKs:hover /* Selected Bot New Command Handler */, .option-1B5ZV8 /* Option new command handler */, 
+.item-26Dhrx /* Radio Button Settings */, .selected-3xBBKs, .selected-3xBBKs:hover /* Selected Bot New Command Handler */, .option-1B5ZV8 /* Option new command handler */,
 .card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .selectorButton-EEUWed /* Resolution Select Screen Share */ {
   background-color: var(--ColTransparent2);
 }
@@ -474,7 +474,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .iconWrapper-2OrFZ1 svg /* Title Bar Icon Wrapper */, .botTagInvert-18-95s /* Bot Tag */, .checkboxWrapper-SkhIWG .checkbox-1ix_J3 svg
 /* Upload Modal Spoiler Checkmark */, .bannerVisible-14J9lQ .iconTierOne-BHC2T8, .bannerVisible-14J9lQ .iconTierTwo-_1edeM /* Premium Guild Icon Gem Tier 1 & 2 */,
 .iconBackgroundTierThree-3qw3JX .flowerStar-1GeTsn /* Tier 3 Flowerstar */, .content-1o0f9g /* Chat Divider New Day */, .isUnread-3Ef-o9 .content-1o0f9g
-/* New Day Unread Chat Divider */, .message-2qnXI6.mentioned-xhSam7 .mention.interactive:hover /* Hovered Mention/Channel Mentioned Message */, .wrapper-3WhCwL:hover 
+/* New Day Unread Chat Divider */, .message-2qnXI6.mentioned-xhSam7 .mention.interactive:hover /* Hovered Mention/Channel Mentioned Message */, .wrapper-3WhCwL:hover
 /* Wrapper Mention/Chat */ {
   color: #ffffff;
 }
@@ -622,7 +622,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
-.button-F9qN4n.focused-3ZzkKr /* Emoji Reaction */, .slider-1PF9SW:focus .grabber-3mFHz2 /* Grabber Voice volume */, .sourceThumbnail-27dolk.selected-1nOkyc, 
+.button-F9qN4n.focused-3ZzkKr /* Emoji Reaction */, .slider-1PF9SW:focus .grabber-3mFHz2 /* Grabber Voice volume */, .sourceThumbnail-27dolk.selected-1nOkyc,
 .tile-2w4k5N:hover .sourceThumbnail-27dolk /* Screen share selected window */ {
   box-shadow: 0 0 0 2px var(--ColAccent);
 }
@@ -727,17 +727,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   position: relative;
 }
 
-.panels-j1Uci_::after {
-  display: block;
-  content: "";
-  position: absolute;
-  bottom: 42px;
-  height: 10px;
-  width: 10px;
-  background-color: var(--ColBackground1);
-  right: 0;
-}
-
 .typing-2GQL18 {
   top: -28px;
   left: 0;
@@ -763,19 +752,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .chat-3bRxxu {
   overflow: visible;
-}
-
-.typing-2GQL18::before {
-  content: "";
-  width: 8px;
-  display: block;
-  position: absolute;
-  left: -8px;
-  height: 28px;
-  bottom: 0;
-  background-color: var(--ColBackground1);
-  border-top-left-radius: 10px;
-  z-index: -1;
 }
 
 .form-2fGMdU {
@@ -934,8 +910,8 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .buttons-3JBrkn {
   background: var(--ColBackground1);
   position: absolute;
-  right: 0;
-  transform: translateX(200px);
+  right: 6px;
+  transform: translateX(490px);
   transition: transform 200ms 400ms;
   top: -44px;
   overflow: hidden;
@@ -1933,7 +1909,7 @@ html::before {
   padding: 0 12px;
 }
 
-/* New command handler */ 
+/* New command handler */
 .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */ {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
