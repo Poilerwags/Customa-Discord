@@ -29,12 +29,14 @@
   z-index: 1;
 }
 
-.sidebar-2K8pFh:hover + .chat-3bRxxu /* Move Chat away on Hover */, .sidebar-2K8pFh:hover + .container-1D34oG /* Friend */, .sidebar-2K8pFh:hover + .container-3Mxszk 
+.sidebar-2K8pFh:hover + .chat-3bRxxu /* Move Chat away on Hover */, .sidebar-2K8pFh:hover + .container-1D34oG /* Friend */, .sidebar-2K8pFh:hover + .container-3Mxszk
 /* Game Library */, .sidebar-2K8pFh:hover + .applicationStore-1pNvnv /* Nitro Store */ {
   transform: translateX(0);
   transition: all var(--DurationWrapperChannel) var(--DelayWrapperOpen);
   border-width: 0;
 }
+
+/* #region DM */
 
 /* Sidebar unhovered - DM */
 .privateChannelsHeaderContainer-3NB1K1 {
@@ -42,12 +44,12 @@
   transition: transform var(--DurationWrapperChannel);
 }
 
-.channel-2QD9_O {
+.channel-2QD9_O /* Private Channel */ {
   margin-left: 0;
   transition: margin var(--DurationWrapperChannel);
 }
 
-.channel-2QD9_O .layout-2DM8Md {
+.channel-2QD9_O .layout-2DM8Md /* Private Channel */ {
   border-radius: 0;
   padding-left: 6px;
   transition: all var(--DurationWrapperChannel);
@@ -58,17 +60,19 @@
   transform: translateX(0);
 }
 
-.sidebar-2K8pFh:hover .channel-2QD9_O {
+.sidebar-2K8pFh:hover .channel-2QD9_O /* Private Channel */ {
   margin-left: 8px;
 }
 
-.sidebar-2K8pFh:hover .channel-2QD9_O .layout-2DM8Md {
+.sidebar-2K8pFh:hover .channel-2QD9_O .layout-2DM8Md /* Private Channel */ {
   padding-left: 8px;
   border-radius: 4px;
 }
+/* #endregion DM */
 
+/* #region Guild */
 /* Sidebar unhovered - Guild */
-.containerDefault-1ZnADq .content-3at_AU {
+.containerDefault--pIXnN .content-1x5b-n /* Guild Channel */ {
   margin-left: 0;
   margin-right: 8px;
   border-radius: 0;
@@ -76,166 +80,196 @@
   transition: margin var(--DurationWrapperChannel), border-radius var(--DurationWrapperChannel), padding-left var(--DurationWrapperChannel);
 }
 
-.containerDefault-1ZnADq .content-3at_AU .icon-1_QxNX {
+.containerDefault--pIXnN .content-1x5b-n .icon-1DeIlz /* Guild Channel Type Icon */ {
   margin-right: 13px;
   transition: margin var(--DurationWrapperChannel);
 }
 
-.container-35XQWE {
+.container-35XQWE /* Notification Bar */ {
   width: calc(var(--WidthChannelMin) - 16px);
   transition: width var(--DurationWrapperChannel);
 }
 
-.container-35XQWE span {
+.container-35XQWE span /* Notification Bar Text */ {
   opacity: 0;
   transition: opacity var(--DurationWrapperChannel);
 }
 
-.unread-3zKkbm + .content-3at_AU, .containerDefault-1ZnADq:hover .unread-3zKkbm + .content-3at_AU {
+.unread-2lAfLh + .content-1x5b-n, .containerDefault--pIXnN:hover .unread-2lAfLh + .content-1x5b-n /* Add Accent color to unread channel background */ {
   background-color: var(--ColAccent);
 }
 
-.containerDefault-1ZnADq .unread-3zKkbm + .content-3at_AU svg {
-  color: var(--ColFont);
+.containerDefault--pIXnN .unread-2lAfLh + .content-1x5b-n svg, .containerDefault--pIXnN .unread-2lAfLh + .content-1x5b-n svg path /* Fix contrast for unread channels */ {
+  color: var(--ColFont)!important;
 }
 
-.unread-3zKkbm {
+.unread-2lAfLh /* Remove unread dot */ {
   display: none;
 }
 
-.containerDefault-3GGEv_ .name-IbjUBS {
+.containerDefault-3tr_sE .name-3l27Hl /* Channel Divider Name */ {
   display: none;
 }
 
-.containerDefault-3GGEv_ .children-13TY0l {
+.containerDefault-3tr_sE .children-L002ao /* Channel Divider Actions */ {
   margin-left: 10px;
 }
 
-.container-3baos1 {
-  padding-left: 6px;
+.list-2luk8a /* Voice Users */ {
+  padding-left: 4px;
   transition: padding var(--DurationWrapperChannel);
-  transition-delay: 0;
 }
 
-.container-3baos1 .avatarWrapper-2yR4wp {
+.listDefault-3ir5aS .avatarContainer-28iYmV /* Voice Users Avatar */ {
   margin-right: 12px;
   transition: margin var(--DurationWrapperChannel);
-  transition-delay: 0;
 }
 
-.actionButtons-14eAc_ {
+.guildIconContainer-2FW_iA, .name-1jkAdW /* Guild Boost Icon and Guild Name */ {
+  opacity: 0;
+  transition: opacity var(--DurationWrapperChannel);
+}
+
+.powercord-badge-cutie /* Powercord donator icon */ {
+  margin-left: 4px;
+  transition: margin var(--DurationWrapperChannel);
+}
+
+/* Sidebar hovered - Guild */
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .content-1x5b-n /* Guild Channel */ {
+  margin-left: 8px;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .content-1x5b-n .icon-1DeIlz /* Guild Channel Type Icon */ {
+  margin-right: 6px;
+}
+
+.sidebar-2K8pFh:hover .container-35XQWE /* Notification Bar */ {
+  width: calc(var(--WidthChannelMax) - 16px);
+}
+
+.sidebar-2K8pFh:hover .container-35XQWE span /* Notification Bar Text */ {
+  opacity: 1;
+  transition: opacity var(--DurationWrapperChannel) var(--DurationWrapperChannel);
+}
+
+.sidebar-2K8pFh:hover .containerDefault-3tr_sE .name-3l27Hl /* Channel Divider Name */ {
   display: block;
 }
 
-.actionButtons-14eAc_ button {
+.sidebar-2K8pFh:hover .list-2luk8a /* Voice Users */ {
+  padding-left: 36px;
+}
+
+.sidebar-2K8pFh:hover .listDefault-3ir5aS .avatarContainer-28iYmV /* Voice Users Avatar */ {
+  margin-right: 12px;
+}
+
+.sidebar-2K8pFh:hover .guildIconContainer-2FW_iA, .sidebar-2K8pFh:hover .name-1jkAdW /* Guild Boost Icon and Guild Name */ {
+  opacity: 1;
+}
+
+.sidebar-2K8pFh:hover .powercord-badge-cutie /* Powercord donator icon */ {
+  margin-left: 0;
+}
+/* #endregion Guild */
+
+/* #region Misc */
+/* Sidebar unhovered - Misc */
+.container-3baos1 /* User Box */ {
+  padding-left: 6px;
+  transition: padding var(--DurationWrapperChannel);
+  transition-delay: 0ms;
+}
+
+.container-3baos1 .avatarWrapper-2yR4wp /* User Box Avatar */ {
+  margin-right: 12px;
+  transition: margin var(--DurationWrapperChannel);
+  transition-delay: 0ms;
+}
+
+.actionButtons-14eAc_ /* Voice Buttons Container */ {
+  display: block;
+}
+
+.actionButtons-14eAc_ button /* Voice Buttons */ {
   margin-bottom: 5px;
+  margin-left: 0;
   width: 38px;
   min-width: 0;
   padding: 0 10px;
   transition: width var(--DurationWrapperChannel);
 }
 
-.container-1giJp5 {
+.container-1giJp5 /* Voice Container */ {
   padding-left: 4px;
 }
 
-.ping-2NgC8E {
+.ping-2NgC8E /* Voice Container Ping */ {
   width: 40px;
   transition: width var(--DurationWrapperChannel);
 }
 
-.container-1giJp5 .subtext-3CDbHg {
+.rtcConnectionStatus-2-jIsi /* Voice Container Ping Container */ {
+  margin-bottom: -10px;
+  transition: margin var(--DurationWrapperChannel);
+}
+
+.container-1giJp5 .subtext-3CDbHg /* Voice Container Ping Subtext */ {
   transform: translateX(-200px);
   transition: transform var(--DurationWrapperChannel);
 }
 
-.list-2bwCXU {
-  padding-left: 4px;
-  transition: padding var(--DurationWrapperChannel);
+.spotify-seek-bar /* Move Spotify Progress down so it isn't blocked by the typing indicator */ {
+  width: var(--WidthChannelMin);
+  transition: all var(--DurationWrapperChannel)!important;
 }
 
-.listDefault-2y5Z9D .avatarContainer-2inGBK {
-  margin-right: 12px;
-  transition: margin var(--DurationWrapperChannel);
+.sidebar-2K8pFh:hover .spotify-seek-bar {
+  width: var(--WidthChannelMax);
 }
 
-.guildIconContainer-E1JUVt, .name-3YKhmS {
-  opacity: 0;
-  transition: opacity var(--DurationWrapperChannel);
+.listeningAlong-30wH70 .party-2cIOyb {
+  order: 1;
+  flex-grow: 0;
+  margin-left: -6px;
+  margin-right: 10px;
 }
 
-.powercord-guild-badge {
-  margin-left: 4px;
-  transition: margin var(--DurationWrapperChannel);
+.listeningAlong-30wH70 > div:first-child {
+  order: 2;
+  flex-grow: 40;
 }
 
-/* Sidebar hovered - Guild */
-.sidebar-2K8pFh:hover .containerDefault-1ZnADq .content-3at_AU {
-  margin-left: 8px;
-  border-radius: 4px;
+.listeningAlong-30wH70 .icons-2uekgw {
+  order: 3;
+  flex-grow: 0;
+}
+
+/* Sidebar hovered - Misc */
+.sidebar-2K8pFh:hover .container-3baos1 /* User box */ {
   padding-left: 8px;
 }
 
-.sidebar-2K8pFh:hover .containerDefault-1ZnADq .content-3at_AU .icon-1_QxNX {
-  margin-right: 6px;
-}
-
-.sidebar-2K8pFh:hover .container-35XQWE {
-  width: calc(var(--WidthChannelMax) - 16px);
-}
-
-.sidebar-2K8pFh:hover .container-35XQWE span {
-  opacity: 1;
-  transition: opacity var(--DurationWrapperChannel) var(--DurationWrapperChannel);
-}
-
-.sidebar-2K8pFh:hover .containerDefault-3GGEv_ .name-IbjUBS {
-  display: block;
-}
-
-.sidebar-2K8pFh:hover .container-3baos1 {
-  padding-left: 8px;
-}
-
-.sidebar-2K8pFh:hover .container-3baos1 .avatarWrapper-2yR4wp {
+.sidebar-2K8pFh:hover .container-3baos1 .avatarWrapper-2yR4wp /* User box avatar */ {
   margin-right: 8px;
 }
 
-.sidebar-2K8pFh:hover .container-1giJp5 .subtext-3CDbHg {
+.sidebar-2K8pFh:hover .container-1giJp5 .subtext-3CDbHg /* Voice Container */ {
   transform: translateX(0);
 }
 
-.sidebar-2K8pFh:hover .actionButtons-14eAc_ button {
+.sidebar-2K8pFh:hover .actionButtons-14eAc_ button /* Voice Buttons */ {
   width: 100%;
 }
 
-.sidebar-2K8pFh:hover .ping-2NgC8E {
+.sidebar-2K8pFh:hover .ping-2NgC8E /* Voice Container Ping */ {
   width: 16px;
 }
 
-.sidebar-2K8pFh:hover .list-2bwCXU {
-  padding-left: 36px;
+.sidebar-2K8pFh:hover .rtcConnectionStatus-2-jIsi /* Voice Container Ping Container */ {
+  margin-bottom: 0;
 }
-
-.sidebar-2K8pFh:hover .listDefault-2y5Z9D .avatarContainer-2inGBK {
-  margin-right: 12px;
-}
-
-.sidebar-2K8pFh:hover .guildIconContainer-E1JUVt, .sidebar-2K8pFh:hover .name-3YKhmS {
-  opacity: 1;
-}
-
-.sidebar-2K8pFh:hover .powercord-guild-badge {
-  margin-left: 0;
-}
-
-/* Other effects */
-.powercord-spotify-seek /* Move Spotify Progress down so it isn't blocked by the typing indicator */ {
-  bottom: -10px;
-  width: var(--WidthChannelMin);
-  transition: width var(--DurationWrapperChannel);
-}
-
-.sidebar-2K8pFh:hover .powercord-spotify-seek {
-  width: var(--WidthChannelMax);
-}
+/* #endregion Misc */
