@@ -1,0 +1,117 @@
+@import url('https://poilerwags.github.io/Customa-Discord/css-snippets.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/base.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/color.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/selection.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/tooltips.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/variables.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Base/modules.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/MemberWrapperHover.m.css');
+@import url('https://poilerwags.github.io/Customa-Discord/Sidebar/coloredChannelIcons.m.css');
+@import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
+
+:root{
+  --INTModColor: '    \2022  Color ~ Customa Devs (Base \2192  color.m.css)\A'!important;
+  --INTVarColor: '\A\A Color - Module \A \2022  --ColChat \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFont \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFontBright \2192  Allowed Values: Allowed Values: Color\A \2022  --ColFontPlaceholder \2192  Allowed Values: Allowed Values: Color'!important;
+
+  /* Do not change anything here unless you know what you are doing */
+  --INTModBase: "    \2022  Base ~ Customa Devs (Base \2192  base.m.css)\A"!important;
+  /* stylelint-disable */
+  /* Has been done since multiline variables are not according to spec but R E A D A B I L I T Y */
+  --INTVarBase: "\A\A Base - Module"
+    "\A \2022  --ColAccent \2192  Allowed Values: Color (pref. #d81b60)"
+    "\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(216, 27, 96, .1))"
+    "\A \2022  --BackgroundImg \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColBackground1 \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColBackground2 \2192  Allowed Values: Color (pref. #212121)"
+    "\A \2022  --ColChannelList \2192  Allowed Values: Color (pref. #212121)"
+    "\A \2022  --ColUserList \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColPopout \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColUserPopout \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColModal \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColUserModal \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColSpoilerCovered \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --ColSpoilerUncovered \2192  Allowed Values: Color (pref. transparent)"
+    "\A \2022  --ColFont \2192  Allowed Values: Color (pref. #ffffff)"
+    "\A \2022  --ColTransparent1 \2192  Allowed Values: Color (pref. rgba(0, 0, 0, .2))"
+    "\A \2022  --ColTransparent2 \2192  Allowed Values: Color (pref. rgba(0, 0, 0, .15))"
+    "\A \2022  --ColLink \2192  Allowed Values: Color (pref. #d81b60)"
+    "\A \2022  --ColWindowBar \2192  Allowed Values: Color (pref. #000000)"
+    "\A \2022  --DisplayButtonEmoji \2192  Allowed Values: flex or none (pref. flex)"
+    "\A \2022  --DisplayButtonGIF \2192  Allowed Values: flex or none (pref. none)"
+    "\A \2022  --DisplayButtonGift \2192  Allowed Values: flex or none (pref. none)"
+    "\A \2022  --DisplayEmbedPill \2192  Allowed Values: solid or none (pref. none)"
+    "\A \2022  --DisplayToolbar \2192  Allowed Values: flex or none (pref. flex)"
+    "\A \2022  --DisplayEmojiQuickReaction \2192  Allowed Values: flex or none (pref. none)"
+    "\A \2022  --DisplayBlockedMessages \2192  Allowed Values: flex or none (pref. none)"
+    "\A \2022  --DisplayNitroMenu \2192  Allowed Values: block or none (pref. none)"
+    "\A \2022  --DisplayLibraryMenu \2192  Allowed Values: block or none (pref. none)"
+    "\A \2022  --FilterAccountSecurity \2192  Allowed Values: CSS Filters (pref. blur(4px))"!important;
+  /* stylelint-enable */
+  --ColChat: white;
+  --ColFont: white;
+  --ColFontBright: white;
+  --UnreadColor: #FF4343; /* Red */
+  --HoverColor: #70ff48; /* Green */
+  --MainColor: #3a7bff; /* Dark Blue */
+  --SelectedColor: #16F3EE; /* Light Blue */
+  --ColFontPlaceholder: green;
+  --text-link: var(--ColLink);
+
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png');
+
+  --ColAccent: #429ef5; /* color */
+  --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
+  --ColBackground1: rgba(0, 0, 0, .3); /* color */
+  --ColBackground2: rgba(0, 0, 0, .5); /* color */
+  --ColChannelList: rgba(0, 0, 0, .4); /* color */
+  --ColUserList: rgba(0, 0, 0, .3); /* color */
+  --ColPopout: rgba(0, 0, 0, .65); /* color */
+  --ColUserPopout: rgba(0, 0, 0, .65); /* color */
+  --ColModal: rgba(0, 0, 0, .65); /* color */
+  --ColUserModal: rgba(0, 0, 0, .65); /* color */
+  --ColSpoilerCovered: rgba(0, 0, 0, .4); /* color */
+  --ColSpoilerUncovered: transparent; /* color */
+  --ColFont: #429ef5; /* color */
+  --ColTransparent1: rgba(0, 0, 0, .4); /* color_alpha */
+  --ColTransparent2: rgba(255, 255, 255, .2); /* color_alpha */
+  --ColLink: var(--ColAccent); /* color */
+  --ColWindowBar: #2fff00; /* color */
+  --DisplayButtonEmoji: flex; /* select[flex|True;none|False] */
+  --DisplayButtonGIF: flex; /* select[flex|True;none|False] */
+  --DisplayButtonGift: flex; /* select[flex|True;none|False] */
+  --DisplayButtonSticker: flex; /* select[flex|True;none|False] */
+  --DisplayEmbedPill: solid; /* select[solid|True;none|False] */
+  --DisplayToolbar: flex; /* select[flex|True;none|False] */
+  --DisplayEmojiQuickReaction: none; /* select[flex|True;none|False] */
+  --DisplayBlockedMessages: none; /* select[flex|True;none|False] */
+  --DisplayNitroMenu: none; /* select[block|True;none|False] */
+  --DisplayLibraryMenu: none; /* select[block|True;none|False] */
+  --FilterAccountSecurity: blur(4px); /* string */
+
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 15%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 0;
+
+  --hover-animation-speed: 0.35s;
+  --seperator-color: var(--background-accent);
+
+  --unread-badge: rgba(255,255,255,0.6) !important;
+  --unread-bg: rgba(255, 255, 255, 0.01) !important;
+  --selected-badge: rgb(112, 135, 215) !important;
+  --selected-bg: rgba(112, 135, 215, 0.1) !important;
+  --hovered-bg: rgba(79,84,92,0.25) !important;
+  --bg-rounding: 0px 10px 10px 0px !important;
+}

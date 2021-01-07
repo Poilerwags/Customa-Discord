@@ -6,7 +6,7 @@
   --INTVarBase: "\A\A Base - Module"
     "\A \2022  --ColAccent \2192  Allowed Values: Color (pref. #d81b60)"
     "\A \2022  --ColAccentAlpha \2192  Allowed Values: Color (pref. rgba(216, 27, 96, .1))"
-    "\A \2022  --ColAppBG \2192  Allowed Values: Color (pref. #161616)"
+    "\A \2022  --BackgroundImg \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColBackground1 \2192  Allowed Values: Color (pref. #161616)"
     "\A \2022  --ColBackground2 \2192  Allowed Values: Color (pref. #212121)"
     "\A \2022  --ColChannelList \2192  Allowed Values: Color (pref. #212121)"
@@ -35,29 +35,30 @@
   /* stylelint-enable */
   --text-link: var(--ColLink);
 
-  --ColAccent: #d81b60; /* color */
+  --BackgroundImg: url('https://i.imgur.com/k6hST83.png');
+
+  --ColAccent: #429ef5; /* color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
-  --ColAppBG: #161616; /* background */
-  --ColBackground1: var(--ColAppBG); /* color */
-  --ColBackground2: #212121; /* color */
-  --ColChannelList: var(--ColBackground2); /* color */
-  --ColUserList: var(--ColBackground1); /* color */
-  --ColPopout: var(--ColBackground1); /* color */
-  --ColUserPopout: var(--ColPopout); /* color */
-  --ColModal: var(--ColBackground1); /* color */
-  --ColUserModal: var(--ColPopout); /* color */
-  --ColSpoilerCovered: var(--ColBackground1); /* color */
+  --ColBackground1: rgba(0, 0, 0, .3); /* color */
+  --ColBackground2: rgba(0, 0, 0, .5); /* color */
+  --ColChannelList: rgba(0, 0, 0, .4); /* color */
+  --ColUserList: rgba(0, 0, 0, .3); /* color */
+  --ColPopout: rgba(0, 0, 0, .65); /* color */
+  --ColUserPopout: rgba(0, 0, 0, .65); /* color */
+  --ColModal: rgba(0, 0, 0, .65); /* color */
+  --ColUserModal: rgba(0, 0, 0, .65); /* color */
+  --ColSpoilerCovered: rgba(0, 0, 0, .4); /* color */
   --ColSpoilerUncovered: transparent; /* color */
-  --ColFont: #ffffff; /* color */
+  --ColFont: #429ef5; /* color */
   --ColTransparent1: rgba(0, 0, 0, .4); /* color_alpha */
-  --ColTransparent2: rgba(0, 0, 0, .2); /* color_alpha */
+  --ColTransparent2: rgba(255, 255, 255, .2); /* color_alpha */
   --ColLink: var(--ColAccent); /* color */
-  --ColWindowBar: #000000; /* color */
+  --ColWindowBar: #2fff00; /* color */
   --DisplayButtonEmoji: flex; /* select[flex|True;none|False] */
   --DisplayButtonGIF: flex; /* select[flex|True;none|False] */
-  --DisplayButtonGift: none; /* select[flex|True;none|False] */
-  --DisplayButtonSticker: none; /* select[flex|True;none|False] */
-  --DisplayEmbedPill: none; /* select[solid|True;none|False] */
+  --DisplayButtonGift: flex; /* select[flex|True;none|False] */
+  --DisplayButtonSticker: flex; /* select[flex|True;none|False] */
+  --DisplayEmbedPill: solid; /* select[solid|True;none|False] */
   --DisplayToolbar: flex; /* select[flex|True;none|False] */
   --DisplayEmojiQuickReaction: none; /* select[flex|True;none|False] */
   --DisplayBlockedMessages: none; /* select[flex|True;none|False] */
@@ -73,7 +74,8 @@
 
 /* App Background */
 body /* Discord Application Body */ {
-  background: var(--ColAppBG);
+  background: var(--BackgroundImg);
+  background-position: center;
 }
 
 /* Background Transparent */
@@ -180,6 +182,29 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColBackground1);
 }
 
+.users-i_3-kL /* Current Users Voice Channel */ {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.panels-j1Uci_ /* Panels User Menu */ {
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+.attachPopout-36hjtN /* Popout Upload/Send Invite */{
+  background-color: rgba(0, 0, 0, 0.75)
+}
+
+.wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.layers-3iHuyZ > .layer-3QrUeG /* Settings Background */{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.menu-3sdvDG.menu-3sdvDG /* Right Click Menu */{
+  background-color: rgba(0, 0, 0, .75);
+}
+
 .regionSelectModal-12e-57 /* Region Selector Color Override - Imagine having the decision between dark and light theme amirite */, .container-2VW0UT /* Settings Save */ {
   background-color: var(--ColBackground1)!important;
 }
@@ -224,9 +249,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .paginator-166-09 /* Payment History Billing Screen */, .cardWrapper-2Min21 /* Server Boost Suggestions Server Boost Settings */, .button-1ZiXG9:hover
 /* Button Chat Actions Hover Effect */, .item-3eFBNF:hover /* Hover Language Selector */, .localBot-GrCgVt, .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z, .mouse-mode
 .message-2qnXI6.localBot-GrCgVt:hover /* Local Bot Message Background */, .outer-1AjyKL /* Outer Box Friends Table */, .outer-1AjyKL .inset-3sAvek /* Inner Box Friends Table */,
-.rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */,
-.message-2qnXI6 .embedWrapper-lXpS3L, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L
-/* Chat Attachments */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
+.rowWrapperActive-2L7i9f /* Library Element Hover Effect */, .actionButton-uPB8Fs.highlight-Lf97TE /* Friends Table Popout Element Hover Effect */, .mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67::after, .mediaBarWrapper-3D7r67::before /* Media Player Bar Background */, .hasMoreButton-1MELpI
 /* Has More Button Recent Mentions */, .button-F9qN4n /* Emoji Reaction */, .header-1RC2Wb, .body-SKIE6r /* Gift Inventory */,
 .header-2-Imhb.header-ykumBX .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* Mentions Popup Mentions Tag */, .secondary-dIudih /* Filter Button Mentions Popup */,
 .messageContainer-gbhlwo /* Message Container Recent Mentions */, .tertiary-aMXF0g /* Tertiary Color - used in Jump Button Recent Mentions */,
@@ -256,6 +279,19 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .selectorButton-EEUWed /* Resolution Select Screen Share */ {
   background-color: var(--ColTransparent2);
 }
+
+.wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
+  background-color: rgba(0, 0, 0, 0.35)
+}
+
+.message-2qnXI6, .wrapper-2a6GCs .attachment-33OFj0, .searchResultMessage-1fxgXh .embedWrapper-lXpS3L /* Chat Attachments */ {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.embedWrapper-lXpS3L /* Embed Background */ {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
 
 /* Dark Transparency Effect */
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx /* Search Bar DMs */, .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md /* Selected Channel DMs */,
@@ -328,6 +364,14 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColTransparent1);
 }
 
+.closedFolderIconWrapper-15K9MK{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.expandedFolderBackground-2sPsd-{
+    border-radius: 15px 15px 25px 25px;
+}
+
 .progress-3Rbvu0 /* Progress Bar Uploading Background */ {
   background-color: var(--ColTransparent1)!important;
 }
@@ -384,7 +428,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .mouse-mode .message-2qnXI6.mentioned-xhSam7:hover, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z /* Hovered Message also Mentioned */, .wrapper-3WhCwL
 /* Wrapper Mention/Chat */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, .buffer-26XPkd, .buffer-26XPkd::after,
 .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */, .localBot-GrCgVt, .replying-1x3H0T /* Local Bot message and replying */ {
-  background-color: var(--ColAccentAlpha);
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .centerButton-3CaNcJ:not(.joinButton-1-UsTC):not(.red-33-Lnk):hover /* Call Buttons */ {
@@ -834,15 +878,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   filter: none;
 }
 
-/* Scrollbars */
-/* stylelint-disable */
-::-webkit-scrollbar {
-  /* stylelint-enable */
-  width: 5px!important;
-  height: 3px!important;
-  display: block;
-}
-
 /* stylelint-disable */
 ::-webkit-scrollbar-track-piece,
 .scroller-2LSbBU.scrollerBase-289Jih::-webkit-scrollbar-track,
@@ -861,7 +896,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .scrollerStore-390omS::-webkit-scrollbar-track,
 .scrollerTrack-1ZIpsv > .scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollerTrack-1ZIpsv > .scrollerStore-390omS::-webkit-scrollbar-track /* Several themed scrollbars */ {
-  background-color: rgba(0, 0, 0, .6)!important;
+  background-color: rgba(255, 255, 255, .25)!important;
 }
 
 .guilds-1SWlCJ > .scroller-2TZvBN::-webkit-scrollbar {
@@ -997,7 +1032,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 }
 
 .channelTextArea-2VhZ6z {
-  border-radius: 5px 0 0 5px;
+  border-radius: 0 0 0 0;
 }
 
 .operations-36ENbA {
@@ -1489,7 +1524,7 @@ path.fill {
   content: "";
   height: 52px;
   width: 72px;
-  background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--ColAppBG)!important;
+  background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif") no-repeat center var(--BackgroundImg)!important;
   background-size: 46px 46px!important;
   display: block!important;
   visibility: visible!important;
