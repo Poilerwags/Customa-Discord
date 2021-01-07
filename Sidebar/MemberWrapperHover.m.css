@@ -18,7 +18,8 @@
   z-index: 999;
   max-height: calc(100% - 52px);
 }
-.scrollableContainer-2NUZem .slateContainer-3Qkn2x, .scrollableContainer-2NUZem .buttons-3JBrkn, .form-2fGMdU {
+
+.scrollableContainer-2NUZem .slateContainer-3Qkn2x, .form-2fGMdU {
   width: calc(100% + 60px);
 }
 
