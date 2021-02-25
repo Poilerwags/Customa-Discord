@@ -170,7 +170,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .popoutWrapper-eJpzc1 .popout-1k352f /* Stream Viewer Popout */, .container-2x5lvQ /* RTC Container Call */, .progress-LWvunf
 .tierInProgress-3mBoXq /* Progress Bar Server Boost Tier Dot */, .content-yTz4x3 .searchResultsWrap-3-pOjs /* Search Results Wrapper */,
 .jumpToPresentBar-G1R9s6 /* Jump to Present Bar */, .inner-1ilYF7 .uploadModal-2ifh8j /* Upload Modal */,
-.autocomplete-1vrmpx.autocomplete-3l_oCd /* Autocomplete */, .css-3vaxre-menu /* Select Menu Background */, .button-2CgfFz.removeOverride-2sdvVX,
+.css-3vaxre-menu /* Select Menu Background */, .button-2CgfFz.removeOverride-2sdvVX,
 .button-2CgfFz.removeOverride-2sdvVX:hover /* Remove Notification Override Button */, .popouts-2bnG9Z .popout-2sKjHu /* Pay with popout Subscriptions Settings */,
 .container-3PXSwK[style*="linear-gradient(to right, rgb(251, 184, 72), rgb(67, 181, 129))"] .progress-1IcQ3A /* Progress Bar Mic Test */, .wrapper-2aW0bm
 /* Message Buttons Chat (Reacting, etc) */, .content-1o0f9g /* Divider Chat New Day */, .streamPreviewWrapper-2DSWOK .streamPreview-2-WUWT /* Stream Preview Popout */,
@@ -186,6 +186,10 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94
 /* Category Header Command Handler */, .popout-VcNcHB /* Select Popout Payment method */, .contentColumn-2hrIYH .smartTypers-preview  /* Smart Typers Preview */ {
   background-color: var(--ColBackground1);
+}
+
+.autocomplete-1vrmpx.autocomplete-3l_oCd /* Autocomplete */ {
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .users-i_3-kL /* Current Users Voice Channel */ {
