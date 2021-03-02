@@ -1057,17 +1057,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
   padding: 6px 10px;
 }
 
-.contentRegion-3nDuYy .side-8zPYf6::before {
-  display: block;
-  height: 60px;
-  width: 192px;
-  background: var(--ColBackground2);
-  z-index: 100;
-  content: "";
-  position: fixed;
-  top: 0;
-}
-
 .side-8zPYf6 > .role-3wi9Tf.item-PXvHYJ {
   margin-top: 30px;
 }
@@ -1094,10 +1083,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .easyModeContainer-2jU1yo .sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 {
   width: 232px;
-}
-
-.sidebarScrollable-1qPI87 + .content-1rPSz4 {
-  margin-left: 0;
 }
 
 .sidebarScrollable-1qPI87 .easyModeLayoutStyle-11J5S7 .side-8zPYf6::before {
