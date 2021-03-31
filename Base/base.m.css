@@ -159,7 +159,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 /* Dark Background */
-.wrapper-3NnKdC.guilds-1SWlCJ /* Guilds Wrapper */, .searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
+.searchBar-6Kv8R2 /* Search Bar Box DMs */, .panels-j1Uci_ /* Panels User Menu */,
 .container-1r6BKw.themed-ANHk51 /* Titlebar */, .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw, .clickable-25tGDB .header-2V-4Sw:hover, .header-2V-4Sw::before,
 .selected-31Nl7x .header-2V-4Sw /* Server Header */, .form-2fGMdU /* Main Textarea */,
 .typing-2GQL18 /* Typing Indicator */, .menu-Sp6bN1 /* Popup Menu Server and Status */, .unread-1xRYoj
@@ -190,8 +190,12 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background-color: var(--ColBackground1);
 }
 
+.wrapper-3NnKdC.guilds-1SWlCJ /* Guilds Wrapper */ {
+  background-color: rgba(0,0,0,0);
+}
+
 .autocomplete-1vrmpx.autocomplete-3l_oCd /* Autocomplete */ {
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .users-i_3-kL /* Current Users Voice Channel */ {
@@ -199,11 +203,11 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .panels-j1Uci_ /* Panels User Menu */ {
-  background-color: rgba(0, 0, 0, 0.4)
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .attachPopout-36hjtN /* Popout Upload/Send Invite */{
-  background-color: rgba(0, 0, 0, 0.75)
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .wrapper-1Rf91z.guilds-1SWlCJ /* Guilds Wrapper */{
@@ -302,7 +306,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* New Role Overview */, .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i /* New Role Overview Buttons */, .container-_phMUq, .icon-3_8HGa
 /* Default Roles Button New Role Overview + Icon */, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) /* New Role Menu Top Bar */,
 .row-3GRgeK:hover:not(.rowSelected-1AHq2T) /* Selected Row New Role Menu */, .cardFolder-28dwxo /* Private Channel Settings Body */, .addMemberRow-3-w-9X.selectedRow-1QP7qb
-/* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */, 
+/* Private Channel Add Role/User */, .item-1yAxl1 /* Permission Button */, .phoneVerificationModal-OzcDc3 .input-3yHnCz /* Telephone Verification Modal Input Field */,
 .expandedFolderBackground-1cujaW /* Open Folder Background */ {
   background-color: var(--ColTransparent2);
 }
