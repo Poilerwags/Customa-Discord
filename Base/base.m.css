@@ -186,7 +186,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Unicode Shortcut Emoji Picker */, .purchaseUnit-2lxci3 /* Store Purchase Info */, .features-_IOqVv .row-1bU71H /* Game Features Store */, .powercord-quickcss-editor-settings
 /* Powercord QuickCSS Not Popped Out */, .exampleModal-2X2Vf8 /* Welcome Modal */, .premiumPromo-fVlLu- /* Premium Promo Emoji Picker */, .stickerCategoryShopWrapper-3EnJdQ
 /* Sticker Category Shop Wrapper */, .container-2fRDfG /* Inline Reply Container */, .autocomplete-1vrmpx.outerWrapper-3-llkA /* New Command handler */, .categoryHeader-O1zU94
-/* Category Header Command Handler */, .popout-VcNcHB /* Select Popout Payment method */, .contentColumn-2hrIYH .smartTypers-preview  /* Smart Typers Preview */ {
+/* Category Header Command Handler */, .popout-VcNcHB /* Select Popout Payment method */, .contentColumn-2hrIYH .smartTypers-preview  /* Smart Typers Preview */,
+.container-lRFx4q /* Active Now Playing Sidebar Friends */ {
   background-color: var(--ColBackground1);
 }
 
@@ -393,7 +394,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX /* Selected Voice User */, .item-26Dhrx:hover:not([aria-checked="true"]) /* Radio Button Settings */,
 .selectorButtonPremiumRequired-mKMbIu /* Locked Selector Button Screen Share */, .searchHeader-2XoQg7 .tab-2j5AEF.selected-2LAck8 /* Selected tab Search */, .button-11zvza
 /* Search Buttons */, .option-3KoAJB[aria-selected="true"] /* Selected Payment method */, .cardContent-qqqwo8 /* Private Channel Settings Header */, .item-1yAxl1:hover
-/* Permission Button */ {
+/* Permission Button */, .section-2gLsgF /* Sidebar Friends List Activity */ {
   background-color: var(--ColTransparent1);
 }
 
@@ -462,7 +463,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .reaction-1hd86g.reactionMe-wv5HKu /* Reaction I reacted to */, .content-3dzVd8.isMentioned-N-h9aa /* Mentioned Messages background */, .mentioned-xhSam7 /* Mentioned Message */,
-.mouse-mode .message-2qnXI6.mentioned-xhSam7:hover, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z /* Hovered Message also Mentioned */, .wrapper-3WhCwL
+.mouse-mode .message-2qnXI6.mentioned-xhSam7:hover, .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z /* Hovered Message also Mentioned */, .markup-2BOw-j .wrapper-3WhCwL
 /* Wrapper Mention/Chat */, .mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs::after, .mediaBarPreview-1jfyFs::before, .buffer-26XPkd, .buffer-26XPkd::after,
 .buffer-26XPkd::before /* Media Player Bar Preview/Buffered */, .localBot-GrCgVt, .replying-1x3H0T /* Local Bot message and replying */ {
   background-color: rgba(0, 0, 0, .3);
@@ -549,7 +550,8 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 /* Selection Menu Guild Discovery */, .hasMoreButton-1MELpI /* Has More Button Recent Mentions */, .activityPanel-28dQGo /* Go Live Panel */, .powercord-quickcss
 .CodeMirror-gutters /* Powercord QuickCSS Not Popped Out */, .copyInput-1T2hfb input:hover, .copyInput-1T2hfb input:focus, .copyInput-1T2hfb input /* Copyinput Server Invite */,
 .card-2Mz_4z /* Cards Screen Share (Channel and Window) */, .lookFilled-22uAsw.select-2fjwPw /* Payment method container */, .textContainer-C0szpm /* Inline File Preview Body */,
-.footer-2yA7Ep /* Inline File Preview Footer */, .modalTextContainer-ITvzbi /* Modal Preview Text File */ {
+.footer-2yA7Ep /* Inline File Preview Footer */, .modalTextContainer-ITvzbi /* Modal Preview Text File */, .scroller-2ZPeAD /* Active Now Playing Sidebar Friends */,
+.wrapper-3D2qGf /* Sidebar */ {
   border: none;
 }
 
@@ -574,7 +576,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV:focus, .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b,
 .select-1Pkeg4.lookFilled-1h1y05.sizeMedium-6vZ9JV.selectOpen-hQuR6b:hover /* Select Box Change Custom Status */, .horizontalAutocomplete-L5KnTN
 .selector-2IcQBU.selectorSelected-1_M1WV /* GIPHY GIF Search */, .iconContainer-1zobSR.checked-1Fij_T /* View as Role Selected Server */, .i.input--jS-j2 .input-cIJ7To:focus
-/* Input Join Server */ {
+/* Input Join Server */, .reaction-1hd86g.reactionMe-wv5HKu /* Reaction */ {
   border-color: var(--ColAccent);
 }
 
@@ -655,7 +657,7 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 
 .avatarSpeaking-2IGMRN /* Avatar Speaking Guild Voicechat */, .content-ySCtCx .focused-1En8bG::after, .content-ySCtCx .result-3w1ZcL:hover::after
 /* Hovered/Focused Element GIF Picker */, .tile-2silOL:hover .sourceThumbnail-14Iubx /* Go Live Hover Effect Program */, .border-Jn5IOt.speaking-B2MXPi,
-.border-3dQmSY.speaking-WDn8Wm /* DM Call Speaking */, .avatarSpeaking-2c8-9i /* Small Avatar Speaking */ {
+.border-3dQmSY.speaking-WDn8Wm /* DM Call Speaking */, .avatarSpeaking-2c8-9i /* Small Avatar Speaking */, .speaking-3dBKhR /* Speaking Indicator Voice Info */ {
   box-shadow: inset 0 0 0 2px var(--ColAccent), inset 0 0 0 3px var(--ColBackground1);
 }
 
@@ -695,11 +697,6 @@ div:not(.item-26Dhrx) .checkboxWrapper-SkhIWG .checkbox-1ix_J3:not(.round-2jCFai
 .chatContent-a9vAAp .buttons-3JBrkn > :nth-child(2) /* Hide GIF Button Channel Area */ {
   display: var(--DisplayButtonGIF);
 }
-
-/* TODO Implement this once Stickers are out */
-/* .chatContent-a9vAAp .buttons-3JBrkn > :nth-child(3) !* Hide Sticker Button Channel Area *! { */
-/*  display: var(--DisplayButtonSticker); */
-/* } */
 
 .chatContent-a9vAAp .buttons-3JBrkn > :nth-child(3) /* Hide Emoji Button Channel Area */, .uploadModal-2ifh8j .buttons-3JBrkn > :nth-child(1) /* Hide Emoji Button Upload Area */,
 .channelTextArea-3bF57p .buttons-3JBrkn > :nth-child(1) {
@@ -1932,6 +1929,10 @@ html::before {
 /* Image Tools Plugin Support */
 .image-tools-modal-footer {
   pointer-events: none;
+}
+
+.image-tools-overlay-ui .buttons-3JBrkn {
+  background-color: transparent;
 }
 
 .image-tools-modal-footer .downloadLink-1ywL9o, .image-tools-modal-footer div[role="button"], .image-tools-modal-footer .buttons > div > div {
