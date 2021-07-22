@@ -10,7 +10,7 @@
 /*///////// Custom Home Button ////////*/
 /*/////////////////////////////////////*/
 
-.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+.listItem-GuPuDH:nth-child(1) .listItemWrapper-KhRmzM .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-FuNwkv{
   background: var(--HomeIconImg); /* image url */
   background-size: contain;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
   height: 50px;
   margin-top: 0px;
 }
-.homeIcon-tEMBK1 path {
+.homeIcon-FuNwkv path {
   fill: transparent;
 }
 .header-3ZP1MY {
