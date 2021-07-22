@@ -585,34 +585,3 @@ span.botText-1526X_ {
 .background-1QDuV2 {
     border-radius: 20px;
 } /* Changes the border raidius of the user card*/
-
-/*/////////////////////////////////////*/
-/*//////// See-Through Textbox ////////*/
-/*/////////////////////////////////////*/
-
-.scroller-2LSbBU {
-    bottom: -37em;
-}
-
-.scrollerSpacer-avRLaA {
-    height: 39em;
-}
-.scrollerSpacer-avRLaA.empty-6MGttt {
-    height: 38em;
-}
-
-.scroller-2LSbBU::-webkit-scrollbar-track /* chat scrollbar */ {
-    margin-bottom: 38em;
-}
-
-.form-2fGMdU::before {
-    display: none;
-}
-
-.channelTextArea-rNsIhG {
-    background-color: transparent;
-}
-
-.container-2fRDfG, .scrollableContainer-2NUZem {
-    background-color: rgba(0,0,0,0.3);
-}
