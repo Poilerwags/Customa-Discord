@@ -69,18 +69,6 @@
 }
 
 /*/////////////////////////////////////*/
-/*//// Embed Links Color up right /////*/
-/*/////////////////////////////////////*/
-
-#EmbedLinks {
-    background-color: rgb(67, 181, 129);
-    border-radius: 20px;
-    padding: 0px 5px 0px 5px;
-    font-size: 15px;
-    color: white !important;
-}
-
-/*/////////////////////////////////////*/
 /*////// Yellow Permission Ticks //////*/
 /*/////////////////////////////////////*/
 
@@ -92,99 +80,26 @@
 }
 
 /*/////////////////////////////////////*/
-/*///////// Rainbow AudioViz //////////*/
-/*/////////////////////////////////////*/
-
-@keyframes rainbow-audioviz-color {
-  0%,
-  100% {background-color: #6666ff}
-  25%  {background-color: #0099ff}
-  50%  {background-color: #00ff00}
-  75%  {background-color: #ff3399}
-}
-
-.vp-audioviz-bar {
-  animation: rainbow-audioviz-color 10s ease-in-out infinite !important;
-}
-
-/*/////////////////////////////////////*/
-/*////// Ripple Effect VC Icons ///////*/
-/*/////////////////////////////////////*/
-
-.iconWrapper-2OrFZ1::after {
-    content:'';
-    position:absolute;
-    background:#fff;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    border-radius:inherit;
-    opacity:0;
-    pointer-events:none;
-    transform:scale(0);
-    transition: opacity 50ms linear;
-    border-radius:50px;
-}
-
-.iconWrapper-2OrFZ1:active::after {
-    transform:scale(1.4);
-    opacity:.24;
-    transition: opacity 50ms linear, transform 150ms ease;
-}
-
-/*/////////////////////////////////////*/
 /*////// Reveal Spoiler on Hover //////*/
 /*/////////////////////////////////////*/
 
 .spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
-        opacity: 1;
-        border-radius: 3px;
-        background-color: #4a4d53;
+  opacity: 1;
+  border-radius: 3px;
+  background-color: #4a4d53;
 }
 
 /*/////////////////////////////////////*/
 /*//////// Center server name /////////*/
 /*/////////////////////////////////////*/
 
-.name-3YKhmS{ text-align: center; }
-
-/*/////////////////////////////////////*/
-/*/////// Rainbow Spotify Time ////////*/
-/*/////////////////////////////////////*/
-
-@keyframes rainbow {
-    0% {
-        background-position: 0% 82%
-    }
-    50% {
-        background-position: 100% 19%
-    }
-    100% {
-        background-position: 0% 82%
-    }
-}
-.powercord-spotify .spotify-seek-bar-progress {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    background-size: 1800% 1800%;
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
-}
+.name-1jkAdW{ text-align: center; }
 
 /*/////////////////////////////////////*/
 /*//////// Center profile tabs ////////*/
 /*/////////////////////////////////////*/
 
-.tabBar-2MuP6-{ justify-content: center; }
+.tabBar-3nvOPa{ justify-content: center; }
 .top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
 
 /*/////////////////////////////////////*/
@@ -207,76 +122,6 @@
   height: 8px;
 }
 
-/*/////////////////////////////////////*/
-/*////// Rainbow Server Settings //////*/
-/*/////////////////////////////////////*/
-
-@keyframes rainbow-server-settings-button {
-  from {color: #6666ff}
-  25%  {color: #0099ff}
-  50%  {color: #00ff00}
-  75%  {color: #ff3399}
-  100% {color: #6666ff}
-}
-.button-1w5pas {
-  animation: rainbow-server-settings-button 10s ease-in-out infinite;
-}
-
-/*/////////////////////////////////////*/
-/*////// Rainbow User Menu Icons //////*/
-/*/////////////////////////////////////*/
-
-@keyframes pride {
-        100%,0%{
-            color: rgb(255,0,0);
-        }
-        8%{
-            color: rgb(255,127,0);
-        }
-        16%{
-            color: rgb(255,255,0);
-        }
-        25%{
-            color: rgb(127,255,0);
-        }
-        33%{
-            color: rgb(0,255,0);
-        }
-        41%{
-            color: rgb(0,255,127);
-        }
-        50%{
-            color: rgb(0,255,255);
-        }
-        58%{
-            color: rgb(0,127,255);
-        }
-        66%{
-            color: rgb(0,0,255);
-        }
-        75%{
-            color: rgb(127,0,255);
-        }
-        83%{
-            color: rgb(255,0,255);
-        }
-        91%{
-            color: rgb(255,0,127);
-        }
-}
-.button-14-BFJ{
-  transition: 0.2s;
-}
-.button-14-BFJ:hover{
-  padding-bottom: 5px;
-  transition: 0.2;
-  animation-name: pride;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
 /*/////////////////////////////////////////////*/
 /* Hide Textbox when you don't have permission */
 /*/////////////////////////////////////////////*/
@@ -284,82 +129,6 @@
 .channelTextAreaDisabled-8rmlrp>div {
     display: none;
 }
-
-/*/////////////////////////////////////*/
-/*////// Add Status Text in DMs ///////*/
-/*/////////////////////////////////////*/
-
-[aria-label="Online"]::after {
-   content: 'ONLINE';
-   font-weight: bold;
-   padding-left: 5px;
-   color: #43B581
-}
-[aria-label="Do Not Disturb"]::after {
-   content: 'DO NOT DISTURB';
-   font-weight: bold;
-   padding-left: 5px;
-   color: #F04747
-}
-[aria-label="Idle"]::after {
-   content: 'IDLE';
-   font-weight: bold;
-   padding-left: 5px;
-   color: #FFB740
-}
-[aria-label="Offline"]::after {
-   content: 'OFFLINE/INVISIBLE';
-   font-weight: bold;
-   padding-left: 5px;
-   color: #747F8D
-}
-
-/*/////////////////////////////////////*/
-/*/// Dropdown Menu Message Options ///*/
-/*/////////////////////////////////////*/
-
-div[id="message-actions"] {
-  min-width: 0px;
-  width: 57px;
-  transition: 1s;
-}
-div[id="message-actions"]:hover {
-  min-width: 0px;
-  width: 200px;
-  transition: 0.5s;
-}
-
-/*/////////////////////////////////////*/
-/*//// Larger Profile Modal Images ////*/
-/*/////////////////////////////////////*/
-
-.headerTop-3C2Zn0 {
-    min-height: 250px;
-    padding: 10px;
-}
-.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
-    left: 0px;
-    bottom: 0px;
-    width: 230px;
-}
-.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
-    height: 230px !important;
-    width: 230px !important;
-}
-.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
-.avatarHintInner-Dco91E {
-    font-size: 0.4em;
-    text-shadow: 1px 1px 3px black;
-}
-.headerTop-3C2Zn0 foreignObject {mask: none !important;}
-.headerTop-3C2Zn0 rect {
-    border-radius: 0;
-    x: 0; y: 79;
-    width: 80px;
-    height: 3px;
-    mask: none;
-}
-.headerText-2sdzFM {padding-bottom: 5px;}
 
 /*/////////////////////////////////////*/
 /*//////// Compact Status Menu ////////*/
@@ -434,51 +203,6 @@ div[id="message-actions"]:hover {
 }
 
 /*/////////////////////////////////////*/
-/*/////// Larger Ping icon in VC //////*/
-/*/////////////////////////////////////*/
-
-.ping-2NgC8E {
-    transform: scale(1.7);
-    margin-left: 5px;
-    margin-top: 11px;
-    margin-bottom: 0;
-    height: 20px;
-}
-
-.channel-1TmDQ6 {
-    margin-left: 30px;
-    margin-top: -9px;
-}
-
-.rtcConnectionStatusConnected-VRZDjy {
-    margin-left: 5px;
-}
-
-/*/////////////////////////////////////*/
-/*//// Rainbow Indication Speaker /////*/
-/*/////////////////////////////////////*/
-
-.avatarSpeaking-3MqCHL {
-    box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);
-    animation: boxshadow 3s linear infinite;
-}
-
-@keyframes boxshadow {
-    0%, 100% {
-        box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);;
-    }
-    25% {
-        box-shadow: inset 0 0 0 2px lime,inset 0 0 0 3px var(--background-secondary);;;
-    }
-    50% {
-       box-shadow: inset 0 0 0 2px yellow,inset 0 0 0 3px var(--background-secondary);;;
-    }
-    75% {
-        box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary);;;
-    }
-}
-
-/*/////////////////////////////////////*/
 /*////// Seperate Plugin Settings /////*/
 /*/////////////////////////////////////*/
 
@@ -535,29 +259,6 @@ span.botText-1526X_ {
 }
 
 /*/////////////////////////////////////*/
-/*///// Rainbow Codeblock Numbers /////*/
-/*/////////////////////////////////////*/
-
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
-}
-
-.powercord-codeblock-table > tr > td:nth-child(1) {
-    background: linear-gradient(45deg, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 6s ease-in-out infinite;
-    background-size: 400% 100%;
-}
-
-/*/////////////////////////////////////*/
 /*//// Colorized Buttons Titlebar /////*/
 /*/////////////////////////////////////*/
 
@@ -579,9 +280,122 @@ span.botText-1526X_ {
 .theme-dark .avatarUploaderIndicator-2G-aIZ {
     display: none;
 } /* Removes the useless icon in settings when uploading an avatar*/
-.avatarUploaderInner-2EvNMg {
-    border-radius: 10px;
-} /* Makes avatar in settings square*/
-.background-1QDuV2 {
-    border-radius: 20px;
-} /* Changes the border raidius of the user card*/
+
+/*/////////////////////////////////////*/
+/*/////// Red Slash Muted in VC ///////*/
+/*/////////////////////////////////////*/
+
+.voiceUser-1K6Xox>.content-1Wq3SX>.icons-1dXQdz svg>path:last-child{
+  fill: #f04747;
+}
+
+/*/////////////////////////////////////*/
+/*/////////// Nicer QuickCSS //////////*/
+/*/////////////////////////////////////*/
+
+.powercord-quickcss .CodeMirror-gutters {
+  border-right: none;
+}
+.powercord-quickcss .CodeMirror-activeline {
+  background-color: var(--background-tertiary);
+}
+.powercord-quickcss > .powercord-quickcss-editor {
+  background-color: var(--background-secondary);
+}
+
+
+/*/////////////////////////////////////*/
+/*//// Unavailable Emotes Colored /////*/
+/*/////////////////////////////////////*/
+
+.emojiItemDisabled-1FvFuF {
+    filter: none;
+}
+
+/*/////////////////////////////////////*/
+/*///////// User Modal Pretty /////////*/
+/*/////////////////////////////////////*/
+
+.clipContainer-eeROt0 {background-color: rgba(0,0,0,0.5) !important}
+.userPopout-xaxa6l {width: 350px !important;}
+.popoutBanner-19WKGg {widtH: 350px !important;}
+.headerText-1vVs-U::before {content: ""; width: 1px; display: block !important; height: 38px !important;}
+.avatar-37jOim.wrapper-3t9DeA { width: 128px !important; height: 128px !important;}
+.avatar-37jOim { border-radius: 24px !important;} /* Can be modified appropriately */
+.bodyTitle-1ySSKn { display: none !important;}
+.note-1oo11U{ display: none !important;}
+.setIdentityLink-1t8Ahd { display: none !important;}*/
+.userPopout-xaxa6l {width: 350px !important;}
+.divider-ewBQKj {width: 320px !important;}
+.popoutBannerPremium-1n96gg {width: 350px !important;}
+.footer-3UKYOU {display: none !important;}
+.avatar-AvHqJA {border-radius: 25px !important;}
+.avatar-1uQSZT {border-radius: 19px !important; border: 6px solid var(--background-tertiary) !important}
+
+.avatar-1BDn8e {
+  border-radius: 10px !important;
+}
+
+/*/////////////////////////////////////*/
+/*///////// Smaller Stickers //////////*/
+/*/////////////////////////////////////*/
+
+.clickableSticker-3HmpgV > div .assetWrapper-3GNt0z  {
+  width:120px !important;
+  height:120px !important;
+}
+
+/*/////////////////////////////////////*/
+/*//// Reactions Don't Look Horrid ////*/
+/*/////////////////////////////////////*/
+
+.reaction-1hd86g,.reaction-1hd86g:hover{
+    background-color:var(--background-modifier-accent);
+    border: none;
+    border-radius:.25rem;
+}
+
+/*/////////////////////////////////////*/
+/*//////// Big Emote in Status ////////*/
+/*/////////////////////////////////////*/
+
+.customStatus-oN4ZZY > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*/////////////////////////////////////*/
+/*/////// Profile Modification ////////*/
+/*/////////////////////////////////////*/
+
+:root{--premium-size:480px;--premium-opacity:.25;--premium-blur:blur(2.6px)} /* 50px For Banner | 400 For Full */
+.theme-dark .root-1gCeng .body-r6_QPy,.topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa,.tabBarItem-3dfX8P{display:table;margin-bottom:15px;font-size:16px;margin-left:8px}
+.theme-dark .root-1gCeng .tabBarContainer-37hZsr{top: 100px; position: relative;}
+.nameTag-ECvD8P{top:80px;left:20px}
+.top-28JiJ- .item-PXvHYJ,.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ,.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{border-bottom-color:transparent;border-bottom:transparent;margin-bottom:20px;top:-20px}
+.body-r6_QPy{position:absolute;background-color:transparent;left:190px;top:30px;height:350px;width:400px}
+.profileBannerPremium-35utuo{width: 620px; height:475px;top:0;height:var(--premium-size);background-position:center;background-size:cover;opacity:var(--premium-opacity);position:absolute;filter:var(--premium-blur)}
+.profileBanner-33-uE1, .customStatusText-2opeSw,.actionButton-3vN-m0,.badgeList-1R1WgZ,.banner-2QYc2d:hover .premiumIconWrapper-1A-UH5{display:none}
+.actionsProfile-jEtjVX{position:absolute;margin-top:150px;margin-left:-0}
+.userInfoSection-q_35fn+.userInfoSection-q_35fn,.tabBarContainer-37hZsr{border: none;}
+.userProfileActivity-Bnt1p_{width:360px;margin-bottom:30px}
+.note-367eZJ textarea{margin-bottom:5px}
+.relationshipButtons-pUQVkf{bottom:12px!important;left:-35px;transform:scale(1.2);position:relative}
+.avatar-AvHqJA{transform:scale(0.8);left:20px;margin-top:20px}
+.avatar-AvHqJA.wrapper-3t9DeA,.body-r6_QPy,.topSection-y3p-_D{background-color:transparent;border:var(--glasscord-background)}
+.topSection-y3p-_D{height:475px}
+.body-r6_QPy,.topSection-y3p-_D{min-height:400px}
+.theme-dark .root-1gCeng{background-color:var(--background-floating)!important; border-radius: 16px !important;}
+
+:root{--user-modal-avatar-size:230px; --blur-the-things: 0px}
+.root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj{padding-left:45px;margin-bottom:20px!important; margin-top: 10px;}
+.root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj .listRow-1iDGel{display:inline-table; align-content: center; justify-content: center; text-align: center;}
+.root-3QyAh1 .listScroller-3GmIYj .mask-1l8v16.svg-2V3M55,.listRow-1iDGel .listAvatar-1BbvHX.wrapper-3t9DeA{filter:blur(var(--blur-the-things));width:calc(var(--user-modal-avatar-size) * 1/3)!important;height:calc(var(--user-modal-avatar-size) * 1/3)!important}
+.root-3QyAh1 .listScroller-3GmIYj .listRow-1iDGel .iconSizeMedium-2OqPjI{filter:blur(var(--blur-the-things));width:calc(var(--user-modal-avatar-size) * 1/3)!important;height:calc(var(--user-modal-avatar-size) * 1/3)!important}
+.root-3QyAh1 .listScroller-3GmIYj .listName-U3shDM,.root-3QyAh1 .listScroller-3GmIYj .listRowContent-i8Bizk{margin-top:2px;display:none}
+.listRow-1iDGel:hover{background-color:transparent}
+
+.pc-connections .connectedAccounts-QlRa4m:empty::before {background-color: rgba(0,0,0,0) !important;}
+.theme-dark .root-1gCeng {width: 620px !important;}
+.userProfileActivity-Bnt1p_ {right: 50px;}
+.nameTag-ECvD8P {width: 170px;}
