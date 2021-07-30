@@ -385,7 +385,7 @@ span.botText-1526X_ {
 .avatar-AvHqJA.wrapper-3t9DeA,.body-r6_QPy,.topSection-y3p-_D{background-color:transparent;border:var(--glasscord-background)}
 .topSection-y3p-_D{height:475px}
 .body-r6_QPy,.topSection-y3p-_D{min-height:400px}
-.theme-dark .root-1gCeng{background-color:var(--background-floating)!important; border-radius: 16px !important;}
+.theme-dark .root-1gCeng{background-color:var(--background-floating); border-radius: 16px !important;}
 
 :root{--user-modal-avatar-size:230px; --blur-the-things: 0px}
 .root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj{padding-left:45px;margin-bottom:20px!important; margin-top: 10px;}
