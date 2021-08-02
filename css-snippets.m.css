@@ -374,7 +374,7 @@ span.botText-1526X_ {
 .nameTag-ECvD8P{top:80px;left:20px}
 .top-28JiJ- .item-PXvHYJ,.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ,.top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{border-bottom-color:transparent;border-bottom:transparent;margin-bottom:20px;top:-20px}
 .body-r6_QPy{position:absolute;background-color:transparent;left:190px;top:30px;height:350px;width:400px}
-.profileBannerPremium-35utuo{width: 620px; height:475px;top:0;height:var(--premium-size);background-position:center;background-size:cover;opacity:var(--premium-opacity);position:absolute;filter:var(--premium-blur)}
+.profileBannerPremium-35utuo{width: 600px; height:475px;top:0;height:var(--premium-size);background-position:center;background-size:cover;opacity:var(--premium-opacity);position:absolute;filter:var(--premium-blur)}
 .profileBanner-33-uE1, .customStatusText-2opeSw,.actionButton-3vN-m0,.badgeList-1R1WgZ,.banner-2QYc2d:hover .premiumIconWrapper-1A-UH5{display:none}
 .actionsProfile-jEtjVX{position:absolute;margin-top:150px;margin-left:-0}
 .userInfoSection-q_35fn+.userInfoSection-q_35fn,.tabBarContainer-37hZsr{border: none;}
@@ -396,6 +396,5 @@ span.botText-1526X_ {
 .listRow-1iDGel:hover{background-color:transparent}
 
 .pc-connections .connectedAccounts-QlRa4m:empty::before {background-color: rgba(0,0,0,0) !important;}
-.theme-dark .root-1gCeng {width: 620px !important;}
 .userProfileActivity-Bnt1p_ {right: 50px;}
 .nameTag-ECvD8P {width: 170px;}
