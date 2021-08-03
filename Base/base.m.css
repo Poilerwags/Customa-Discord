@@ -28,7 +28,6 @@
     "\A \2022  --DisplayEmbedPill \2192  Allowed Values: solid or none (pref. none)"
     "\A \2022  --DisplayToolbar \2192  Allowed Values: flex or none (pref. flex)"
     "\A \2022  --DisplayEmojiQuickReaction \2192  Allowed Values: flex or none (pref. none)"
-    "\A \2022  --DisplayBlockedMessages \2192  Allowed Values: flex or none (pref. none)"
     "\A \2022  --DisplayNitroMenu \2192  Allowed Values: block or none (pref. none)"
     "\A \2022  --DisplayLibraryMenu \2192  Allowed Values: block or none (pref. none)"
     "\A \2022  --FilterAccountSecurity \2192  Allowed Values: CSS Filters (pref. blur(4px))"!important;
@@ -63,7 +62,6 @@
   --DisplayEmbedPill: solid; /* select[solid|True;none|False] */
   --DisplayToolbar: flex; /* select[flex|True;none|False] */
   --DisplayEmojiQuickReaction: none; /* select[flex|True;none|False] */
-  --DisplayBlockedMessages: none; /* select[flex|True;none|False] */
   --DisplayNitroMenu: none; /* select[block|True;none|False] */
   --DisplayLibraryMenu: none; /* select[block|True;none|False] */
   --FilterAccountSecurity: blur(4px); /* string */
@@ -1324,11 +1322,6 @@ path.fill {
   filter: brightness(200%);
 }
 
-/* Blocked Messages */
-.blockedSystemMessage-2Rk1ek {
-  display: var(--DisplayBlockedMessages);
-}
-
 .messages-3amgkR > .groupStart-23k01U:not(.message-2qnXI6):not(.backgroundFlash-24qWLN) {
   margin: 0;
 }
@@ -1624,11 +1617,6 @@ html::before {
   content: "";
   display: block;
   background: url("https://customa.gitlab.io/Customa-Misc/Logo/ParentLogo/GIF/Logo60FPS.gif");
-}
-
-/* Blocked Message Remover */
-.blockedSystemMessage-2Rk1ek {
-  display: var(--DisplayBlockedMessages);
 }
 
 .messages-3amgkR > .groupStart-23k01U:not(.message-2qnXI6):not(.backgroundFlash-24qWLN) {
