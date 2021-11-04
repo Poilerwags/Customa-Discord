@@ -150,7 +150,7 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
 }
 
 .expandedFolderBackground-3ZDF05, .expandedFolderIconWrapper-3fmTfW {
-  background-color: : var(--ColChannelList);
+  background-color: var(--ColChannelList);
 }
 
 .wrapper-2a6GCs .spoilerText-3p6IlD.hidden-HHr2R9, .wrapper-2a6GCs .spoilerText-3p6IlD.hidden-HHr2R9:hover /* Unclicked Spoilers */ {
