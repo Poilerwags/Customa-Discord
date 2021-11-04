@@ -149,8 +149,12 @@ section /* Section RTC Container */, .tier-3H4BXk .tierBody-x9kBBp /* Body Tier 
   background: transparent;
 }
 
-.expandedFolderBackground-3ZDF05, .expandedFolderIconWrapper-3fmTfW {
-  background-color: var(--ColChannelList);
+.expandedFolderIconWrapper-3fmTfW {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.expandedFolderBackground-3ZDF05 {
+  background-color: var(--ColBackground1);
 }
 
 .wrapper-2a6GCs .spoilerText-3p6IlD.hidden-HHr2R9, .wrapper-2a6GCs .spoilerText-3p6IlD.hidden-HHr2R9:hover /* Unclicked Spoilers */ {
