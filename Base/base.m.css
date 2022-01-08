@@ -38,6 +38,9 @@
 
   --BackgroundImg: url('https://i.imgur.com/k6hST83.png');
 
+  /* --background-primary: rgba(0, 0, 0, 0.2);
+  --background-secondary: rgba(0, 0, 0, 0.12);
+  --background-tertiary: rgba(0, 0, 0, 0.36); */
   --ColAccent: #429ef5; /* color */
   --ColAccentAlpha: rgba(216, 27, 96, .1); /* color_alpha */
   --ColBackground1: rgba(0, 0, 0, .3); /* color */
@@ -77,6 +80,34 @@ body /* Discord Application Body */ {
   background: var(--BackgroundImg);
   background-position: center;
   background-size: cover;
+}
+
+.scroller-3X7KbA, .app-2CXKsg, .wrapper-1_HaEi, .bg-1QIAus, .container-1NXEtd, .members-3WRCEx, .members-3WRCEx>div {
+  background-color: transparent;
+}
+
+.chat-2ZfjoI {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sidebar-1tnWFu {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.panels-3wFtMD {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-1-ERn5.clickable-vvKY2q {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_, .container-2o3qEW, .scrollableContainer-15eg7h.webkit-QgSAqd, .channelTextArea-1FufC0.channelTextArea-1VQBuV {
+   background-color: rgba(0, 0, 0, 0.35)
+}
+
+.children-3xh0VB:after, .form-3gdLxP:before{
+  display: none;
 }
 
 /* Background Transparent */

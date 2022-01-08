@@ -23,17 +23,17 @@ Server Boosting */, .tierLabel-39IsmN /* Tier Label Server Boosting */, .marketi
     transition: color 200ms;
 }
 
-.containerDefault--pIXnN.selected-3LIHYU *:not(.actionIcon-PgcMM2) /* Guild Channel */ {
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover /* Guild Channel */ {
   color: var(--SelectedColor)!important;
   transition: color 200ms;
 }
 
-/* Channels Unread */ .wrapper-2jXpOf.modeUnread-1qO3K1 *:not(.numberBadge-2s8kKX) {
+/* Channels Unread */ .modeUnread-3Cxepe .name-28HaxV {
 color: var(--UnreadColor)!important;
 transition: color 200ms;
 }
 
-.containerDefault--pIXnN, .wrapper-2jXpOf:hover *:not(.numberBadge-2s8kKX) /* Channel Categories */ {
+.name-28HaxV:hover *:not(.numberBadge-2s8kKX) /* Channel Categories */ {
     color: var(--HoverColor)!important;
     transition: color 200ms;
 }
