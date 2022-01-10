@@ -82,23 +82,33 @@ body /* Discord Application Body */ {
   background-size: cover;
 }
 
-.scroller-3X7KbA, .app-2CXKsg, .wrapper-1_HaEi, .bg-1QIAus, .container-1NXEtd, .members-3WRCEx, .members-3WRCEx>div {
+.scroller-3X7KbA, .app-2CXKsg, .wrapper-1_HaEi, .bg-1QIAus, .container-1NXEtd, .members-3WRCEx, .members-3WRCEx>div, .wrapper-15CKyy, .wrapper-3HVHpV {
   background-color: transparent;
 }
 
-.chat-2ZfjoI {
+.chat-2ZfjoI, .theme-dark .container-2cd8Mz {
   background-color: rgba(0, 0, 0, 0.75);
+}
+.container-ZMc96U.themed-Hp1KC_ {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.nowPlayingColumn-1eCBCN {
+  display: none;
 }
 
 .sidebar-1tnWFu {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
-.panels-3wFtMD {
+.privateChannels-oVe7HL, .content-2a4AW9, .scroller-WSmht3, .container-ZMc96U.themed-Hp1KC_ {
+  background-color: transparent;
+}
+.panels-3wFtMD, .embedFull-1HGV2S {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.container-1-ERn5.clickable-vvKY2q {
+.container-1-ERn5.clickable-vvKY2q, .searchBar-3TnChZ {
   background-color: rgba(0, 0, 0, 0.65);
 }
 
