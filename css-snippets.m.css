@@ -2,7 +2,7 @@
 /*//////// Makes Bot Tag Round ////////*/
 /*/////////////////////////////////////*/
 
-.botTag-2WPJ74 {
+.botTag-2mryIa {
     border-radius: 20px !important;
 }
 
@@ -10,7 +10,7 @@
 /*///////// Custom Home Button ////////*/
 /*/////////////////////////////////////*/
 
-.listItem-GuPuDH:nth-child(1) .listItemWrapper-KhRmzM .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-FuNwkv{
+.listItem-3SmS1K:nth-child(1) .listItemWrapper-3d87LP .wrapper-28eC3z svg foreignObject .wrapper-3kah-n .childWrapper-1j_1ub .homeIcon-r0w4ny{
   background: var(--HomeIconImg); /* image url */
   background-size: contain;
   background-repeat: no-repeat;
@@ -19,10 +19,10 @@
   height: 50px;
   margin-top: 0px;
 }
-.homeIcon-FuNwkv path {
+.homeIcon-r0w4ny path {
   fill: transparent;
 }
-.header-3ZP1MY {
+.header-3ZP1MY { /*idk what to change this to*/
   color: var(white);
 }
 
@@ -30,14 +30,14 @@
 /*//////////// Better roles ///////////*/
 /*/////////////////////////////////////*/
 
-.role-2irmRk {
+.role-2TIOKu {
   position: relative;
   overflow: hidden;
   z-index: 1;
   border: none;
   padding: 5px;
 }
-.roleCircle-3xAZ1j::before {
+.roleCircle-1EgnFN::before {
   content: '';
   position: absolute;
   top:0;
@@ -49,7 +49,7 @@
   z-index: -1;
   pointer-events: none;
 }
-.footer-1fjuF6 {
+.footer-1fjuF6 { /* does this matter? */
   border-top: none;
 }
 
@@ -57,33 +57,22 @@
 /*/////////// Bot tag Color ///////////*/
 /*/////////////////////////////////////*/
 
-.botTagRegular-2HEhHi {
+.botTagRegular-kpctgU {
     transition: .5s;
     background: rgba(114,137,218,0.1);
     color: #7289da;
 }
-.botTagRegular-2HEhHi:hover {
+.botTagRegular-kpctgU:hover {
     transition: .5s;
     background: #7289da;
     color: #fff;
 }
 
 /*/////////////////////////////////////*/
-/*////// Yellow Permission Ticks //////*/
-/*/////////////////////////////////////*/
-
-.passthroughSelected-1Eq0Kl {
-  background-color: #ffba00 !important;
-}
-.passthrough-1c2ewQ:not(.passthroughSelected-1Eq0Kl) img {
-  content: url("https://cdn.discordapp.com/attachments/729456400077422623/748313547800313906/yellow.svg");
-}
-
-/*/////////////////////////////////////*/
 /*////// Reveal Spoiler on Hover //////*/
 /*/////////////////////////////////////*/
 
-.spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+.spoilerText-27bIiA.hidden-3B-Rum:hover .inlineContent-2YnoDy {
   opacity: 1;
   border-radius: 3px;
   background-color: #4a4d53;
@@ -93,193 +82,59 @@
 /*//////// Center server name /////////*/
 /*/////////////////////////////////////*/
 
-.name-1jkAdW{ text-align: center; }
+.name-3Uvkvr{ text-align: center; }
 
 /*/////////////////////////////////////*/
 /*//////// Center profile tabs ////////*/
 /*/////////////////////////////////////*/
 
-.tabBar-3nvOPa{ justify-content: center; }
-.top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
-
-/*/////////////////////////////////////*/
-/*/// Make autocomplete scrollable ////*/
-/*/////////////////////////////////////*/
-
-.autocomplete-1vrmpx {
-  max-height: calc(100vh - 120px);
-  overflow-y: scroll;
-}
-.autocomplete-1vrmpx::-webkit-scrollbar-thumb {
-  background-clip: padding-box;
-  border: 2px solid transparent;
-  border-radius: 4px;
-  background-color: var(--scrollbar-thin-thumb);
-  min-height: 40px;
-}
-.autocomplete-1vrmpx::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
+.tabBar-2hXqzU{ justify-content: center; }
 
 /*/////////////////////////////////////////////*/
 /* Hide Textbox when you don't have permission */
 /*/////////////////////////////////////////////*/
 
-.channelTextAreaDisabled-8rmlrp>div {
+.channelTextAreaDisabled-1p2fQv>div {
     display: none;
-}
-
-/*/////////////////////////////////////*/
-/*//////// Compact Status Menu ////////*/
-/*/////////////////////////////////////*/
-
-.status-1fhblQ, .description-2L932D {
-    display: none;
-}
-.separator-2I32lJ {
-    display: none;
-}
-.mask-1qbNWk.icon-1IxfJ2 {
-    --status-icon-size: 75%;
-    height: var(--status-icon-size);
-    width: var(--status-icon-size);
-    margin-left: 33%;
-}
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    visibility: visible;
-}
-.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
-    grid-column: 1/5;
-}
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
-    transition: opacity 0.15s linear 0s;
-}
-.customText-tY5LJn {
-    font-size: 15px;
 }
 
 /*/////////////////////////////////////////////*/
 /* Cleaner status picker with gradient buttons */
 /*/////////////////////////////////////////////*/
 
-#status-picker .separator-2I32lJ, #status-picker .description-2L932D {
+#status-picker .separator-1So4YB, #status-picker .description-3Cwkxk {
   display: none;
 }
-#status-picker .focused-3afm-j {
+#status-picker .focused-3qFvc8 {
   background: linear-gradient(45deg, #2b45a2, #7289da);
 }
-#status-picker .focused-3afm-j#status-picker-online {
+#status-picker .focused-3qFvc8#status-picker-online {
   background: linear-gradient(45deg, #21583f, #43b581);
 }
-#status-picker .focused-3afm-j#status-picker-idle {
+#status-picker .focused-3qFvc8#status-picker-idle {
   background: linear-gradient(45deg, #915c03, #faa61a);
 }
-#status-picker .focused-3afm-j#status-picker-dnd {
+#status-picker .focused-3qFvc8#status-picker-dnd {
   background: linear-gradient(45deg, #aa0e0e, #f04747);
 }
-#status-picker .focused-3afm-j#status-picker-invisible {
+#status-picker .focused-3qFvc8#status-picker-invisible {
   background: linear-gradient(45deg, #3a4047, #747f8d);
-}
-
-/*/////////////////////////////////////*/
-/*/// Fly in Voice Chat buttons fix ///*/
-/*/////////////////////////////////////*/
-
-.panels-j1Uci_ .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ .container-3baos1 button:not([role="switch"]) {
-    transition: 0.2s ease-in-out;
-    width: 0px !important;
-    overflow: hidden !important;
-    opacity: 0 !important;
-}
-.panels-j1Uci_ .container-3baos1:hover button.button-14-BFJ {
-    transition: 0.2s ease-in-out;
-    width: 32px !important;
-    overflow: visible !important;
-    opacity: 1 !important;
-}
-
-/*/////////////////////////////////////*/
-/*////// Seperate Plugin Settings /////*/
-/*/////////////////////////////////////*/
-
-.item-PXvHYJ[data-item-id=pc-updater] { height: 4.65rem; }
-
-.item-PXvHYJ[data-item-id=pc-updater]:hover {
-    background: linear-gradient(180deg,
-        rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 43%,
-        rgba(0, 0, 0, 0.2) 43.01%, rgba(0, 0, 0, 0.2) 100%) !important;
-}
-.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
-  background: linear-gradient(180deg,
-        rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 43%,
-        rgba(0, 0, 0, 0.3) 43.01%, rgba(0, 0, 0, 0.3) 100%) !important;
-}
-.item-PXvHYJ[data-item-id=pc-updater]:after {
-    position: absolute;
-    margin-top: calc(2rem + 3px); margin-left: -3.5rem;
-
-    border-top: 1px solid var(--background-modifier-accent);
-    line-height: 2.6rem; width: 90%;
-
-  content: "Plugin Settings";
-    color: rgb(159, 159, 159);
-    text-transform: uppercase;
-    font-weight: 700; font-size: 12px;
-}
-
-/*/////////////////////////////////////*/
-/*/////////// Bot Tag Icon ////////////*/
-/*/////////////////////////////////////*/
-
-.px-10SIf7.botTag-2WPJ74 {
-    height: 15px;
-    padding: 0 4px;
-    margin-top: 1px;
-    padding-right: 0px;
-    border-radius: 3px;
-}
-
-span.botText-1526X_::before {
-    font-family: "Font Awesome 5 Pro" !important;
-    content: "\f544";
-    font-weight: 900;
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-span.botText-1526X_ {
-    visibility: hidden;
-    position: relative;
 }
 
 /*/////////////////////////////////////*/
 /*//// Colorized Buttons Titlebar /////*/
 /*/////////////////////////////////////*/
 
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #eab618;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #48c048;}
+.titleBar-1it3bQ > *:nth-child(3):hover {background-color: #eab618;}
+.titleBar-1it3bQ > *:nth-child(4):hover {background-color: #48c048;}
 
 /*/////////////////////////////////////*/
 /*/// Colored Emote Button Text Bar ///*/
 /*/////////////////////////////////////*/
 
-.sprite-2iCowe {
+.sprite-2lxwfc {
   filter: grayscale(0) !important;
 }
-
-/*/////////////////////////////////////*/
-/*/// Rounding User Settings Avatar ///*/
-/*/////////////////////////////////////*/
-
-.theme-dark .avatarUploaderIndicator-2G-aIZ {
-    display: none;
-} /* Removes the useless icon in settings when uploading an avatar*/
 
 /*/////////////////////////////////////*/
 /*/////// Red Slash Muted in VC ///////*/
@@ -303,70 +158,23 @@ span.botText-1526X_ {
   background-color: var(--background-secondary);
 }
 
-
-/*/////////////////////////////////////*/
-/*//// Unavailable Emotes Colored /////*/
-/*/////////////////////////////////////*/
-
-.emojiItemDisabled-1FvFuF {
-    filter: none;
-}
-
 /*/////////////////////////////////////*/
 /*///////// User Modal Pretty /////////*/
 /*/////////////////////////////////////*/
 
 .clipContainer-eeROt0 {background-color: rgba(0,0,0,0.5) !important}
-.userPopout-xaxa6l {width: 350px !important;}
-.popoutBanner-19WKGg {widtH: 350px !important;}
-.headerText-1vVs-U::before {content: ""; width: 1px; display: block !important; height: 38px !important;}
-.avatar-37jOim.wrapper-3t9DeA { width: 128px !important; height: 128px !important;}
-.avatar-37jOim { border-radius: 24px !important;} /* Can be modified appropriately */
-.bodyTitle-1ySSKn { display: none !important;}
-.note-1oo11U{ display: none !important;}
-.setIdentityLink-1t8Ahd { display: none !important;}*/
-.userPopout-xaxa6l {width: 350px !important;}
-.divider-ewBQKj {width: 320px !important;}
-.popoutBannerPremium-1n96gg {width: 350px !important;}
-.footer-3UKYOU {display: none !important;}
-.avatar-AvHqJA {border-radius: 25px !important;}
-.avatar-1uQSZT {border-radius: 19px !important; border: 6px solid var(--background-tertiary) !important}
-
-.avatar-1BDn8e {
-  border-radius: 10px !important;
-}
-
-/*/////////////////////////////////////*/
-/*///////// Smaller Stickers //////////*/
-/*/////////////////////////////////////*/
-
-.clickableSticker-3HmpgV > div .assetWrapper-3GNt0z  {
-  width:120px !important;
-  height:120px !important;
-}
-
-/*/////////////////////////////////////*/
-/*//// Reactions Don't Look Horrid ////*/
-/*/////////////////////////////////////*/
-
-.reaction-1hd86g,.reaction-1hd86g:hover{
-    background-color:var(--background-modifier-accent);
-    border: none;
-    border-radius:.25rem;
-}
-
-/*/////////////////////////////////////*/
-/*//////// Big Emote in Status ////////*/
-/*/////////////////////////////////////*/
-
-.customStatus-oN4ZZY > .customStatusEmoji-3a2-Zo.customStatusSoloEmoji-1tDhmL:only-child {
-    margin-right: auto;
-    margin-left: auto;
-}
+.userPopout-2j1gM4, .popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {width: 350px !important;}
+.headerText-1-WmDq::before {content: ""; width: 1px; display: block !important; height: 38px !important;}
+.avatar-2Vndt_.wrapper-1VLyxH { width: 128px !important; height: 128px !important;}
+.avatar-2Vndt_ { border-radius: 24px !important;} /* Can be modified appropriately */
+.bodyTitle-2Az3VQ, .inputWrapper-1YNMmM, .note-Go5ZP2, .setIdentityLink-1t8Ahd, .footer-3naVBw { display: none !important;}
+.avatar-2Vndt_ {border-radius: 25px !important;}
 
 /*/////////////////////////////////////*/
 /*/////// Profile Modification ////////*/
 /*/////////////////////////////////////*/
+
+/* eh not doing this */
 
 :root{--premium-size:480px;--premium-opacity:.25;--premium-blur:blur(2.6px)} /* 50px For Banner | 400 For Full */
 .theme-dark .root-1gCeng .body-r6_QPy,.topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa,.tabBarItem-3dfX8P{display:table;margin-bottom:15px;font-size:16px;margin-left:8px}
