@@ -12,6 +12,7 @@
 
 .childWrapper-1j_1ub{
   background: var(--HomeIconImg); /* image url */
+  background-color: transparent !important;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
