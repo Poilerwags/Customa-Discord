@@ -10,7 +10,7 @@
 /*///////// Custom Home Button ////////*/
 /*/////////////////////////////////////*/
 
-.listItem-3SmS1K:nth-child(1) .listItemWrapper-3d87LP .wrapper-28eC3z svg foreignObject .wrapper-3kah-n .childWrapper-1j_1ub .homeIcon-r0w4ny{
+.childWrapper-1j_1ub{
   background: var(--HomeIconImg); /* image url */
   background-size: contain;
   background-repeat: no-repeat;
