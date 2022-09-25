@@ -263,11 +263,11 @@
   height: 128px;
 }
 
-.bannerSVGWrapper-qc0szY circle {
+/* .bannerSVGWrapper-qc0szY circle {
   cx: 75;
   cy: 70;
   r: 6;
-}
+} */
 
 .clipContainer-eeROt0 {background-color: rgba(0,0,0,0.5) !important}
 .userPopout-2j1gM4, .popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {width: 350px !important;}
