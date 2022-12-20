@@ -130,8 +130,8 @@
   y: -52;
 }
 #app-mount .wrapper-1VLyxH[style*="80px"] rect {
-  width: 80px;
-  height: 80px;
+  width: 128px;
+  height: 128px;
   stroke-width: var(--rs-medium-width);
 }
 #app-mount .wrapper-1VLyxH[style*="80px"] img {
@@ -258,22 +258,33 @@
 /*///////// User Modal Pretty /////////*/
 /*/////////////////////////////////////*/
 
-.mask-1FEkla[viewBox="0 0 92 92"] {
-  width: 128px;
-  height: 128px;
+.bannerSVGWrapper-qc0szY circle {
+  r: 0;
 }
 
-/* .bannerSVGWrapper-qc0szY circle {
-  cx: 75;
-  cy: 70;
-  r: 6;
-} */
+.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq foreignObject[mask*=mobile], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=mobile] {
+  width: 144px !important;
+  height: 128px !important;
+}
 
-.clipContainer-eeROt0 {background-color: rgba(0,0,0,0.5) !important}
-.userPopout-2j1gM4, .popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {width: 350px !important;}
-.headerText-1-WmDq::before {content: ""; width: 1px; display: block !important; height: 38px !important;}
-.avatar-b5OQ1N_.wrapper-1VLyxH { width: 128px !important; height: 128px !important;}
-.avatar-b5OQ1N_ { border-radius: 24px !important;} /* Can be modified appropriately */
-/* .bodyTitle-2Az3VQ, .inputWrapper-1YNMmM, .note-Go5ZP2, .setIdentityLink-1t8Ahd, .footer-3naVBw { display: none !important;} */
-.bodyTitle-2Az3VQ, .note-Go5ZP2, .setIdentityLink-1t8Ahd, .footer-3naVBw { display: none !important;}
-.avatar-2Vndt_ {border-radius: 25px !important;}
+.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq foreignObject[mask*=status-round-80], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=status-round-80] {
+  width: 128px !important;
+  height: 128px !important;
+}
+
+
+.userPopoutOverlayBackground-dKOOda {
+  margin: 75px 16px 16px;
+}
+
+[class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz buttonsWrapper-2ARRp1 horizontal-30-DXt"] {
+  display: none;
+}
+
+.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject::after {
+  display: none;
+}
+
+.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq circle, .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy circle {
+  display: none;
+}
