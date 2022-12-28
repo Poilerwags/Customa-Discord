@@ -5,20 +5,25 @@
 
 /* App Background */
 body /* Discord Application Body */ {
-  background: var(--BackgroundImg);
-  background-position: center;
-  background-size: cover;
+    background: var(--BackgroundImg);
+    background-position: center;
+    background-size: cover;
 }
+  
 
 .scroller-3X7KbA, .app-2CXKsg, .wrapper-1_HaEi, .bg-1QIAus, .container-1NXEtd, .members-3WRCEx, .members-3WRCEx>div, .wrapper-15CKyy, .wrapper-3HVHpV {
-  background-color: transparent;
+    background-color: transparent;
 }
-
+  
 .chat-2ZfjoI, .theme-dark .container-2cd8Mz {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 .container-ZMc96U.themed-Hp1KC_ {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.member-48YF_l {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nowPlayingColumn-1eCBCN {
