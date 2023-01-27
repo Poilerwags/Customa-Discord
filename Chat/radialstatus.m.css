@@ -292,3 +292,25 @@
 .wrapper-1VLyxH.pointer-5RhfHK.avatar-1YsFQ1 circle {
   display: none;
 }
+
+/*/////////////////////////////////////*/
+/*/////// Server Settings Pretty //////*/
+/*/////////////////////////////////////*/
+
+.wrapper-1VLyxH.pointer-5RhfHK.avatar-3mTjvZ {
+  width: 120px;
+  height: 120px;
+}
+
+.wrapper-1VLyxH.pointer-5RhfHK.avatar-3mTjvZ .mask-1FEkla.svg-2azL_l foreignObject {
+  width: 128px;
+  height: 128px;
+}
+
+.userTag-2qPxEZ {
+  margin-left: 40px;
+}
+
+.background-3d_SjE {
+  margin-top: 45px;
+}
