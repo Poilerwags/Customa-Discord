@@ -12,14 +12,14 @@
 .standardSidebarView-E9Pc3j /* Also Entire Background */ {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN /* Left Settings Panel */ {
-  background-color: rgba(0, 0, 0, 0.6);
+.sidebarRegionScroller-FXiQOh /* Left Settings Panel */ {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .contentRegion-3HkfJJ /* Right Settings Panel */ {
   background-color: rgba(0, 0, 0, 0);
 }
-.contentRegionScroller-2_GT_N.contentRegionShownSidebar-fHXkEg.auto-2K3UW5.scrollerBase-_bVAAt /* Right Settings Panel */ {
-  background-color: rgba(0, 0, 0, 0.5);
+.contentRegionShownSidebar-fHXkEg /* Right Settings Panel */ {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /******************/
