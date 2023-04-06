@@ -256,21 +256,21 @@
 /*///////// User Modal Pretty /////////*/
 /*/////////////////////////////////////*/
 
-.bannerSVGWrapper-qc0szY circle {
+.bannerSVGWrapper-2CLfzN circle {
   r: 0;
 }
 
-.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq foreignObject[mask*=mobile], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=mobile] {
+.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2 foreignObject[mask*=mobile], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=mobile] {
   width: 144px !important;
   height: 128px !important;
 }
 
-.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq foreignObject[mask*=status-round-80], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=status-round-80] {
+.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2 foreignObject[mask*=status-round-80], .clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy foreignObject[mask*=status-round-80] {
   width: 128px !important;
   height: 128px !important;
 }
 
-.userPopoutOverlayBackground-dKOOda {
+.userPopoutOverlayBackground-3A0Pcz {
   margin: 75px 16px 16px;
 }
 
@@ -278,11 +278,11 @@
   display: none;
 }
 
-.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionNormal-V4Mjtq circle,
-.clickable-3iBWTO.avatarWrapperNormal-1tQ3Je.avatarWrapper-3y0KZ1.avatarPositionPremiumBanner-2nq2Fy circle,
+.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumBanner-2EAbSH circle,
+.clickable-GKg4Qy.avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionPremiumNoBanner-2u3xDC circle,
 .inputWrapper-1YNMmM.messageInputContainer-2rGDH8, .note-6O4w9y,
 .defaultColor-1EVLSt.eyebrow-Ejf06y.defaultColor-1GKx81.title-1r9MQ6,
-.section-3FmfOT.section--1D3ev.lastSection-3_1yKt  {
+.section-3FmfOT.section--1D3ev.lastSection-3_1yKt {
     display: none;
 }
 
