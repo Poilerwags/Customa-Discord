@@ -6,19 +6,19 @@
 /*******************/
 /* Settings Panels */
 /*******************/
-.platform-win .layer-86YKbF /* Entire Background */ {
+.platform-win .layer__2efaa /* Entire Background */ {
   background-color: rgba(0, 0, 0, 0);
 }
-.standardSidebarView-E9Pc3j /* Also Entire Background */ {
+.standardSidebarView__1129a /* Also Entire Background */ {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.sidebarRegionScroller-FXiQOh /* Left Settings Panel */ {
+.sidebarRegionScroller__1fa7e /* Left Settings Panel */ {
   background-color: rgba(0, 0, 0, 0.4);
 }
-.contentRegion-3HkfJJ /* Right Settings Panel */ {
+.contentRegion__0bec1 /* Right Settings Panel */ {
   background-color: rgba(0, 0, 0, 0);
 }
-.contentRegionShownSidebar-fHXkEg /* Right Settings Panel */ {
+.contentRegionShownSidebar__610ed /* Right Settings Panel */ {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -41,72 +41,76 @@ body /* Discord Application Body */ {
 /***************************/
 /* Transparent Server List */
 /***************************/
-.scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 {
-  background-color: transparent;
+.expandedFolderBackground__1bec6 {
+  background-color: rgba(0, 0, 0, 0.35);
 }
-.wrapper-1_HaEi {
+.wrapper_a7e7a8 {
   background-color: transparent;
 }
 
 /***************************/
 /* Transparent Member List */
 /***************************/
-.members-3WRCEx {
+.members__9f47b {
   background-color: transparent;
 }
-.container-2o3qEW {
+.container_b2ce9c {
   background-color: rgba(0, 0, 0, 0.35)
 }
 
 /*********************/
 /* Member List Blobs */
 /*********************/
-.member-48YF_l {
-    background-color: rgba(0, 0, 0, 0.3);
+.member_aa4760 {
+    background-color: transparent;
 }
 
-/*****************************/
+/*****************************/ 
 /* Remove Now Playing Column */
 /*****************************/
-.nowPlayingColumn-1eCBCN {
+.nowPlayingColumn_f5023f {
   display: none;
 }
 
 /***********************/
 /* Channels List Panel */
 /***********************/
-.sidebar-1tnWFu /* Also Affects DM List */ {
+.sidebar_ded4b5 /* Also Affects DM List */ {
   background-color: rgba(0, 0, 0, 0.45);
 }
-.theme-dark .container-1NXEtd {
+.theme-dark .container__590e2 {
   background-color: transparent;
 }
 
 /**************/
 /* User Panel */
 /**************/
-.panels-3wFtMD, .embedFull-1HGV2S {
-  background-color: rgba(0, 0, 0, 0.5);
+.panels__58331 {
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.theme-dark .container-YkUktl {
-  background-color: var(--ColBackground1);
+.theme-dark .container_ca50b9 {
+  background-color: transparent;
 }
 
 /************/
 /* DMs List */
 /************/
-.privateChannels-oVe7HL {
+.privateChannels__93473 {
   background-color: transparent;
 }
-.theme-dark .scroller-WSmht3 {
+.theme-dark .scroller__4b984 {
   background-color: transparent;
 }
 
 /**************************/
 /* Top Bar Friends Screen */
 /**************************/
-.container-ZMc96U.themed-Hp1KC_ {
-  background-color: transparent;
+.theme-dark.container__11d72.themed_b152d4 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.searchBar_e4ea2a {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /**************/
@@ -118,52 +122,53 @@ body /* Discord Application Body */ {
 .app_de4237 {
   background-color: transparent;
 }
-.bg-1QIAus {
+.bg__12180 {
   background-color: transparent;
 }
 
 /***************/
 /* Chat Window */
 /***************/
+
 .chat__52833 {
   background-color: rgba(0, 0, 0, 0.55);
 }
 .chatContent__5dca8 {
-  background-color: blue !important;
+  background-color: transparent !important;
 }
 
 /******************/
 /* Friends Window */
 /******************/
-.theme-dark .container-2cd8Mz {
-  background-color: rgba(0, 0, 0, 0.55);
+.container__5c7e7 {
+  background-color: rgba(0, 0, 0, 0.55) !important;
 }
 
 /****************/
 /* Top Bar Chat */
 /****************/
-.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
+.title_b7d661.container__11d72.themed_b152d4 {
   background-color: rgba(0, 0, 0, 0.15);
 }
-.searchBar-3TnChZ {
+.searchBar_e0c60b {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.container-1-ERn5 {
+.container__7c79d {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.children-3xh0VB::after {
+.children__32014::after {
   display: none;
 }
 
 /************/
 /* Text Bar */
 /************/
-.scrollableContainer-15eg7h.webkit-QgSAqd {
+.themedBackground__6b1b6 {
+  background: transparent;
+}
+.channelTextArea__2e60f.channelTextArea__56a36 {
   background-color: rgba(0, 0, 0, 0.35)
 }
-.channelTextArea-1FufC0.channelTextArea-1VQBuV {
-  background-color: rgba(0, 0, 0, 0.35)
-}
-.form-3gdLxP::before {
+.form__13a2c::before {
   display: none;
 }

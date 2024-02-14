@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "author": "The Customa Project",
     "license": "GPL-3.0-only",
-    "theme": "./base.m.css",
+    "theme": "./Theme.m.css",
     "preview": [
         "https://customa.gitlab.io/Customa-Misc/Discord/Dark%20Theme.png"
     ],
