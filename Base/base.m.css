@@ -115,7 +115,7 @@ body /* Discord Application Body */ {
 #app-mount /* App Mount */ {
   background-color: transparent;
 }
-.app-2CXKsg {
+.app_de4237 {
   background-color: transparent;
 }
 .bg-1QIAus {
@@ -125,11 +125,11 @@ body /* Discord Application Body */ {
 /***************/
 /* Chat Window */
 /***************/
-.chat-2ZfjoI {
+.chat__52833 {
   background-color: rgba(0, 0, 0, 0.55);
 }
-.chatContent-3KubbW {
-  background-color: transparent;
+.chatContent__5dca8 {
+  background-color: blue !important;
 }
 
 /******************/
