@@ -1,16 +1,8 @@
 /*/////////////////////////////////////*/
-/*//////// Makes Bot Tag Round ////////*/
-/*/////////////////////////////////////*/
-
-.botTag-2mryIa {
-    border-radius: 20px !important;
-}
-
-/*/////////////////////////////////////*/
 /*///////// Custom Home Button ////////*/
 /*/////////////////////////////////////*/
 
-.childWrapper-1j_1ub{
+.childWrapper__01b9c *{
   background: var(--HomeIconImg); /* image url */
   background-color: transparent !important;
   background-size: contain;
@@ -19,142 +11,20 @@
   width: 50px;
   height: 50px;
   margin-top: 0px;
-}
-.homeIcon-r0w4ny path {
-  fill: transparent;
-}
-.header-3ZP1MY { /*idk what to change this to*/
-  color: var(white);
-}
-
-/*/////////////////////////////////////*/
-/*//////////// Better roles ///////////*/
-/*/////////////////////////////////////*/
-
-.role-2TIOKu {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  border: none;
-  padding: 5px;
-}
-.roleCircle-1EgnFN::before {
-  content: '';
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height: 100%;
-  background: inherit;
-  opacity: .2;
-  z-index: -1;
-  pointer-events: none;
-}
-.footer-1fjuF6 { /* does this matter? */
-  border-top: none;
-}
-
-/*/////////////////////////////////////*/
-/*/////////// Bot tag Color ///////////*/
-/*/////////////////////////////////////*/
-
-.botTagRegular-kpctgU {
-    transition: .5s;
-    background: rgba(114,137,218,0.1);
-    color: #7289da;
-}
-.botTagRegular-kpctgU:hover {
-    transition: .5s;
-    background: #7289da;
-    color: #fff;
-}
-
-/*/////////////////////////////////////*/
-/*////// Reveal Spoiler on Hover //////*/
-/*/////////////////////////////////////*/
-
-.spoilerText-27bIiA.hidden-3B-Rum:hover .inlineContent-2YnoDy {
-  opacity: 1;
-  border-radius: 3px;
-  background-color: #4a4d53;
-}
-
-/*/////////////////////////////////////*/
-/*//////// Center server name /////////*/
-/*/////////////////////////////////////*/
-
-.name-3Uvkvr{ text-align: center; }
-
-/*/////////////////////////////////////*/
-/*//////// Center profile tabs ////////*/
-/*/////////////////////////////////////*/
-
-.tabBar-2hXqzU{ justify-content: center; }
-
-/*/////////////////////////////////////////////*/
-/* Hide Textbox when you don't have permission */
-/*/////////////////////////////////////////////*/
-
-.channelTextAreaDisabled-1p2fQv>div {
+  color:transparent;
+  }
+  
+  /*/////////////////////////////////////////////*/
+  /* Hide Textbox when you don't have permission */
+  /*/////////////////////////////////////////////*/
+  
+  .channelTextAreaDisabled_c43b1c>div {
     display: none;
-}
-
-/*/////////////////////////////////////////////*/
-/* Cleaner status picker with gradient buttons */
-/*/////////////////////////////////////////////*/
-
-#status-picker .separator-1So4YB, #status-picker .description-3Cwkxk {
-  display: none;
-}
-#status-picker .focused-3qFvc8 {
-  background: linear-gradient(45deg, #2b45a2, #7289da);
-}
-#status-picker .focused-3qFvc8#status-picker-online {
-  background: linear-gradient(45deg, #21583f, #43b581);
-}
-#status-picker .focused-3qFvc8#status-picker-idle {
-  background: linear-gradient(45deg, #915c03, #faa61a);
-}
-#status-picker .focused-3qFvc8#status-picker-dnd {
-  background: linear-gradient(45deg, #aa0e0e, #f04747);
-}
-#status-picker .focused-3qFvc8#status-picker-invisible {
-  background: linear-gradient(45deg, #3a4047, #747f8d);
-}
-
-/*/////////////////////////////////////*/
-/*//// Colorized Buttons Titlebar /////*/
-/*/////////////////////////////////////*/
-
-.titleBar-1it3bQ > *:nth-child(3):hover {background-color: #eab618;}
-.titleBar-1it3bQ > *:nth-child(4):hover {background-color: #48c048;}
-
-/*/////////////////////////////////////*/
-/*/// Colored Emote Button Text Bar ///*/
-/*/////////////////////////////////////*/
-
-.sprite-2lxwfc {
-  filter: grayscale(0) !important;
-}
-
-/*/////////////////////////////////////*/
-/*/////// Red Slash Muted in VC ///////*/
-/*/////////////////////////////////////*/
-
-.voiceUser-1K6Xox>.content-1Wq3SX>.icons-1dXQdz svg>path:last-child{
-  fill: #f04747;
-}
-
-/*/////////////////////////////////////*/
-/*/////////// Nicer QuickCSS //////////*/
-/*/////////////////////////////////////*/
-
-.powercord-quickcss .CodeMirror-gutters {
-  border-right: none;
-}
-.powercord-quickcss .CodeMirror-activeline {
-  background-color: var(--background-tertiary);
-}
-.powercord-quickcss > .powercord-quickcss-editor {
-  background-color: var(--background-secondary);
-}
+  }
+  
+  /*/////////////////////////////////////*/
+  /*//// Colorized Buttons Titlebar /////*/
+  /*/////////////////////////////////////*/
+  
+  .titleBar__01af6 > *:nth-child(3):hover {background-color: #eab618;}
+  .titleBar__01af6 > *:nth-child(4):hover {background-color: #48c048;}
